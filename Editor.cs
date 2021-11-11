@@ -731,6 +731,11 @@ namespace guigubahuang
         private async void LoadingData()
         {
             _schoolJObj = await _worker.LoadingJson(_schoolPath);
+            if (_schoolJObj == null)
+            {
+                MessageBox.Show("加载存档异常，请选择正确的存档路径！","加载错误");
+                return;
+            }
             _schoolList = _worker.GetSchoolList(_schoolJObj);
 
             _heroJObj = await _worker.LoadingJson(_heroPath);

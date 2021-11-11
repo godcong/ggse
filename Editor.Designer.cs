@@ -59,6 +59,79 @@ namespace guigubahuang
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.txtHX = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtGJ = new System.Windows.Forms.TextBox();
+            this.txtFY = new System.Windows.Forms.TextBox();
+            this.txtJL = new System.Windows.Forms.TextBox();
+            this.txtGFKX = new System.Windows.Forms.TextBox();
+            this.txtLGKX = new System.Windows.Forms.TextBox();
+            this.txtHuXin = new System.Windows.Forms.TextBox();
+            this.txtYS = new System.Windows.Forms.TextBox();
+            this.txtKJBS = new System.Windows.Forms.TextBox();
+            this.txtKBBS = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.txtLD = new System.Windows.Forms.TextBox();
+            this.txtLQ = new System.Windows.Forms.TextBox();
+            this.txtFS = new System.Windows.Forms.TextBox();
+            this.txtHF = new System.Windows.Forms.TextBox();
+            this.txtYC = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.txtKC = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txtFLG = new System.Windows.Forms.TextBox();
+            this.txtHLG = new System.Windows.Forms.TextBox();
+            this.txtSLG = new System.Windows.Forms.TextBox();
+            this.txtLLG = new System.Windows.Forms.TextBox();
+            this.txtTLG = new System.Windows.Forms.TextBox();
+            this.txtMLG = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.txtDF = new System.Windows.Forms.TextBox();
+            this.txtQF = new System.Windows.Forms.TextBox();
+            this.txtJF = new System.Windows.Forms.TextBox();
+            this.txtQuanFa = new System.Windows.Forms.TextBox();
+            this.txtZF = new System.Windows.Forms.TextBox();
+            this.txtZhiFa = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.txtLingshi2 = new System.Windows.Forms.TextBox();
+            this.txtML = new System.Windows.Forms.TextBox();
+            this.txtSW = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtDX = new System.Windows.Forms.TextBox();
+            this.txtMD = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.txtZD = new System.Windows.Forms.TextBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.btnDelNTGM = new System.Windows.Forms.Button();
             this.btnChangedNTGM = new System.Windows.Forms.Button();
@@ -66,78 +139,12 @@ namespace guigubahuang
             this.cboNiTianGaiMing = new System.Windows.Forms.ComboBox();
             this.lBoxNiTianGaiMing = new System.Windows.Forms.ListBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.txtLingshi2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtFLG = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.txtMD = new System.Windows.Forms.TextBox();
-            this.txtZD = new System.Windows.Forms.TextBox();
             this.label52 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.txtKC = new System.Windows.Forms.TextBox();
-            this.txtYC = new System.Windows.Forms.TextBox();
-            this.txtHF = new System.Windows.Forms.TextBox();
-            this.txtFS = new System.Windows.Forms.TextBox();
-            this.txtLQ = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.txtLD = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.txtMLG = new System.Windows.Forms.TextBox();
-            this.txtTLG = new System.Windows.Forms.TextBox();
-            this.txtLLG = new System.Windows.Forms.TextBox();
-            this.txtSLG = new System.Windows.Forms.TextBox();
-            this.txtHLG = new System.Windows.Forms.TextBox();
-            this.txtZhiFa = new System.Windows.Forms.TextBox();
-            this.txtZF = new System.Windows.Forms.TextBox();
-            this.txtQuanFa = new System.Windows.Forms.TextBox();
-            this.txtJF = new System.Windows.Forms.TextBox();
-            this.txtQF = new System.Windows.Forms.TextBox();
-            this.txtDF = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txtDX = new System.Windows.Forms.TextBox();
-            this.txtKBBS = new System.Windows.Forms.TextBox();
-            this.txtKJBS = new System.Windows.Forms.TextBox();
-            this.txtYS = new System.Windows.Forms.TextBox();
-            this.txtHuXin = new System.Windows.Forms.TextBox();
-            this.txtHX = new System.Windows.Forms.TextBox();
-            this.txtLGKX = new System.Windows.Forms.TextBox();
-            this.txtGFKX = new System.Windows.Forms.TextBox();
-            this.txtJL = new System.Windows.Forms.TextBox();
-            this.txtFY = new System.Windows.Forms.TextBox();
-            this.txtGJ = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -145,8 +152,6 @@ namespace guigubahuang
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtSW = new System.Windows.Forms.TextBox();
-            this.txtML = new System.Windows.Forms.TextBox();
             this.txtWX = new System.Windows.Forms.TextBox();
             this.txtXY = new System.Windows.Forms.TextBox();
             this.txtNL2 = new System.Windows.Forms.TextBox();
@@ -221,6 +226,7 @@ namespace guigubahuang
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.label73 = new System.Windows.Forms.Label();
             this.gBoxUnit = new System.Windows.Forms.GroupBox();
+            this.label74 = new System.Windows.Forms.Label();
             this.txtSearchUnit = new System.Windows.Forms.TextBox();
             this.lBoxUnit = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -267,17 +273,16 @@ namespace guigubahuang
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.lBoxBakDIr = new System.Windows.Forms.ListBox();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.label74 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox13.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -297,11 +302,6 @@ namespace guigubahuang
             this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox12.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.groupBox16.SuspendLayout();
-            this.groupBox17.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -322,7 +322,7 @@ namespace guigubahuang
             // pgbWorkerState
             // 
             this.pgbWorkerState.Location = new System.Drawing.Point(6, 11);
-            this.pgbWorkerState.MarqueeAnimationSpeed = 30;
+            this.pgbWorkerState.MarqueeAnimationSpeed = 5;
             this.pgbWorkerState.Name = "pgbWorkerState";
             this.pgbWorkerState.Size = new System.Drawing.Size(1175, 10);
             this.pgbWorkerState.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
@@ -342,7 +342,7 @@ namespace guigubahuang
             // 
             this.btnLoadJson.Location = new System.Drawing.Point(1090, 24);
             this.btnLoadJson.Name = "btnLoadJson";
-            this.btnLoadJson.Size = new System.Drawing.Size(85, 35);
+            this.btnLoadJson.Size = new System.Drawing.Size(85, 34);
             this.btnLoadJson.TabIndex = 2;
             this.btnLoadJson.Text = "加载";
             this.btnLoadJson.UseVisualStyleBackColor = true;
@@ -352,7 +352,7 @@ namespace guigubahuang
             // 
             this.btnBrowse.Location = new System.Drawing.Point(990, 24);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(85, 35);
+            this.btnBrowse.Size = new System.Drawing.Size(85, 34);
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "选择";
             this.btnBrowse.UseVisualStyleBackColor = true;
@@ -422,6 +422,663 @@ namespace guigubahuang
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "属性";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.txtHX);
+            this.groupBox14.Controls.Add(this.label19);
+            this.groupBox14.Controls.Add(this.txtGJ);
+            this.groupBox14.Controls.Add(this.txtFY);
+            this.groupBox14.Controls.Add(this.txtJL);
+            this.groupBox14.Controls.Add(this.txtGFKX);
+            this.groupBox14.Controls.Add(this.txtLGKX);
+            this.groupBox14.Controls.Add(this.txtHuXin);
+            this.groupBox14.Controls.Add(this.txtYS);
+            this.groupBox14.Controls.Add(this.txtKJBS);
+            this.groupBox14.Controls.Add(this.txtKBBS);
+            this.groupBox14.Controls.Add(this.label20);
+            this.groupBox14.Controls.Add(this.label21);
+            this.groupBox14.Controls.Add(this.label22);
+            this.groupBox14.Controls.Add(this.label23);
+            this.groupBox14.Controls.Add(this.label24);
+            this.groupBox14.Controls.Add(this.label25);
+            this.groupBox14.Controls.Add(this.label26);
+            this.groupBox14.Controls.Add(this.label27);
+            this.groupBox14.Controls.Add(this.label28);
+            this.groupBox14.Location = new System.Drawing.Point(389, 190);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(237, 206);
+            this.groupBox14.TabIndex = 109;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "战斗属性";
+            // 
+            // txtHX
+            // 
+            this.txtHX.Location = new System.Drawing.Point(192, 21);
+            this.txtHX.Name = "txtHX";
+            this.txtHX.Size = new System.Drawing.Size(35, 24);
+            this.txtHX.TabIndex = 41;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(31, 24);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(38, 19);
+            this.label19.TabIndex = 35;
+            this.label19.Text = "攻击:";
+            // 
+            // txtGJ
+            // 
+            this.txtGJ.Location = new System.Drawing.Point(77, 21);
+            this.txtGJ.Name = "txtGJ";
+            this.txtGJ.Size = new System.Drawing.Size(35, 24);
+            this.txtGJ.TabIndex = 36;
+            // 
+            // txtFY
+            // 
+            this.txtFY.Location = new System.Drawing.Point(77, 53);
+            this.txtFY.Name = "txtFY";
+            this.txtFY.Size = new System.Drawing.Size(35, 24);
+            this.txtFY.TabIndex = 37;
+            // 
+            // txtJL
+            // 
+            this.txtJL.Location = new System.Drawing.Point(77, 85);
+            this.txtJL.Name = "txtJL";
+            this.txtJL.Size = new System.Drawing.Size(35, 24);
+            this.txtJL.TabIndex = 38;
+            // 
+            // txtGFKX
+            // 
+            this.txtGFKX.Location = new System.Drawing.Point(77, 117);
+            this.txtGFKX.Name = "txtGFKX";
+            this.txtGFKX.Size = new System.Drawing.Size(35, 24);
+            this.txtGFKX.TabIndex = 39;
+            // 
+            // txtLGKX
+            // 
+            this.txtLGKX.Location = new System.Drawing.Point(77, 149);
+            this.txtLGKX.Name = "txtLGKX";
+            this.txtLGKX.Size = new System.Drawing.Size(35, 24);
+            this.txtLGKX.TabIndex = 40;
+            // 
+            // txtHuXin
+            // 
+            this.txtHuXin.Location = new System.Drawing.Point(192, 53);
+            this.txtHuXin.Name = "txtHuXin";
+            this.txtHuXin.Size = new System.Drawing.Size(35, 24);
+            this.txtHuXin.TabIndex = 42;
+            // 
+            // txtYS
+            // 
+            this.txtYS.Location = new System.Drawing.Point(192, 85);
+            this.txtYS.Name = "txtYS";
+            this.txtYS.Size = new System.Drawing.Size(35, 24);
+            this.txtYS.TabIndex = 43;
+            // 
+            // txtKJBS
+            // 
+            this.txtKJBS.Location = new System.Drawing.Point(192, 117);
+            this.txtKJBS.Name = "txtKJBS";
+            this.txtKJBS.Size = new System.Drawing.Size(35, 24);
+            this.txtKJBS.TabIndex = 44;
+            // 
+            // txtKBBS
+            // 
+            this.txtKBBS.Location = new System.Drawing.Point(192, 149);
+            this.txtKBBS.Name = "txtKBBS";
+            this.txtKBBS.Size = new System.Drawing.Size(35, 24);
+            this.txtKBBS.TabIndex = 45;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(31, 56);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(38, 19);
+            this.label20.TabIndex = 47;
+            this.label20.Text = "防御:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(31, 88);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(38, 19);
+            this.label21.TabIndex = 48;
+            this.label21.Text = "脚力:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 120);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(64, 19);
+            this.label22.TabIndex = 49;
+            this.label22.Text = "功法抗性:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 152);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(64, 19);
+            this.label23.TabIndex = 50;
+            this.label23.Text = "灵根抗性:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(146, 24);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(38, 19);
+            this.label24.TabIndex = 51;
+            this.label24.Text = "会心:";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(146, 56);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(38, 19);
+            this.label25.TabIndex = 52;
+            this.label25.Text = "护心:";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(146, 88);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(38, 19);
+            this.label26.TabIndex = 53;
+            this.label26.Text = "移速:";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(118, 120);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(64, 19);
+            this.label27.TabIndex = 54;
+            this.label27.Text = "暴击倍数:";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(118, 152);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(64, 19);
+            this.label28.TabIndex = 55;
+            this.label28.Text = "抗暴倍数:";
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.label41);
+            this.groupBox17.Controls.Add(this.txtLD);
+            this.groupBox17.Controls.Add(this.txtLQ);
+            this.groupBox17.Controls.Add(this.txtFS);
+            this.groupBox17.Controls.Add(this.txtHF);
+            this.groupBox17.Controls.Add(this.txtYC);
+            this.groupBox17.Controls.Add(this.label46);
+            this.groupBox17.Controls.Add(this.txtKC);
+            this.groupBox17.Controls.Add(this.label45);
+            this.groupBox17.Controls.Add(this.label42);
+            this.groupBox17.Controls.Add(this.label44);
+            this.groupBox17.Controls.Add(this.label43);
+            this.groupBox17.Location = new System.Drawing.Point(857, 190);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(110, 206);
+            this.groupBox17.TabIndex = 112;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "技艺资质";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(17, 20);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(38, 19);
+            this.label41.TabIndex = 80;
+            this.label41.Text = "炼丹:";
+            // 
+            // txtLD
+            // 
+            this.txtLD.Location = new System.Drawing.Point(63, 17);
+            this.txtLD.Name = "txtLD";
+            this.txtLD.Size = new System.Drawing.Size(35, 24);
+            this.txtLD.TabIndex = 79;
+            // 
+            // txtLQ
+            // 
+            this.txtLQ.Location = new System.Drawing.Point(63, 49);
+            this.txtLQ.Name = "txtLQ";
+            this.txtLQ.Size = new System.Drawing.Size(35, 24);
+            this.txtLQ.TabIndex = 81;
+            // 
+            // txtFS
+            // 
+            this.txtFS.Location = new System.Drawing.Point(63, 81);
+            this.txtFS.Name = "txtFS";
+            this.txtFS.Size = new System.Drawing.Size(35, 24);
+            this.txtFS.TabIndex = 82;
+            // 
+            // txtHF
+            // 
+            this.txtHF.Location = new System.Drawing.Point(63, 113);
+            this.txtHF.Name = "txtHF";
+            this.txtHF.Size = new System.Drawing.Size(35, 24);
+            this.txtHF.TabIndex = 83;
+            // 
+            // txtYC
+            // 
+            this.txtYC.Location = new System.Drawing.Point(63, 145);
+            this.txtYC.Name = "txtYC";
+            this.txtYC.Size = new System.Drawing.Size(35, 24);
+            this.txtYC.TabIndex = 84;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(17, 180);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(38, 19);
+            this.label46.TabIndex = 90;
+            this.label46.Text = "矿材:";
+            // 
+            // txtKC
+            // 
+            this.txtKC.Location = new System.Drawing.Point(63, 177);
+            this.txtKC.Name = "txtKC";
+            this.txtKC.Size = new System.Drawing.Size(35, 24);
+            this.txtKC.TabIndex = 85;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(17, 148);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(38, 19);
+            this.label45.TabIndex = 89;
+            this.label45.Text = "药材:";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(17, 52);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(38, 19);
+            this.label42.TabIndex = 86;
+            this.label42.Text = "炼器:";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(17, 116);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(38, 19);
+            this.label44.TabIndex = 88;
+            this.label44.Text = "画符:";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(17, 84);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(38, 19);
+            this.label43.TabIndex = 87;
+            this.label43.Text = "风水:";
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.label5);
+            this.groupBox16.Controls.Add(this.label36);
+            this.groupBox16.Controls.Add(this.txtFLG);
+            this.groupBox16.Controls.Add(this.txtHLG);
+            this.groupBox16.Controls.Add(this.txtSLG);
+            this.groupBox16.Controls.Add(this.txtLLG);
+            this.groupBox16.Controls.Add(this.txtTLG);
+            this.groupBox16.Controls.Add(this.txtMLG);
+            this.groupBox16.Controls.Add(this.label37);
+            this.groupBox16.Controls.Add(this.label38);
+            this.groupBox16.Controls.Add(this.label39);
+            this.groupBox16.Controls.Add(this.label40);
+            this.groupBox16.Location = new System.Drawing.Point(741, 190);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(110, 208);
+            this.groupBox16.TabIndex = 111;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "灵根资质";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 180);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 19);
+            this.label5.TabIndex = 104;
+            this.label5.Text = "风灵根:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(9, 22);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(51, 19);
+            this.label36.TabIndex = 74;
+            this.label36.Text = "火灵根:";
+            // 
+            // txtFLG
+            // 
+            this.txtFLG.Location = new System.Drawing.Point(69, 177);
+            this.txtFLG.Name = "txtFLG";
+            this.txtFLG.Size = new System.Drawing.Size(35, 24);
+            this.txtFLG.TabIndex = 103;
+            // 
+            // txtHLG
+            // 
+            this.txtHLG.Location = new System.Drawing.Point(69, 19);
+            this.txtHLG.Name = "txtHLG";
+            this.txtHLG.Size = new System.Drawing.Size(35, 24);
+            this.txtHLG.TabIndex = 64;
+            // 
+            // txtSLG
+            // 
+            this.txtSLG.Location = new System.Drawing.Point(69, 51);
+            this.txtSLG.Name = "txtSLG";
+            this.txtSLG.Size = new System.Drawing.Size(35, 24);
+            this.txtSLG.TabIndex = 65;
+            // 
+            // txtLLG
+            // 
+            this.txtLLG.Location = new System.Drawing.Point(69, 83);
+            this.txtLLG.Name = "txtLLG";
+            this.txtLLG.Size = new System.Drawing.Size(35, 24);
+            this.txtLLG.TabIndex = 66;
+            // 
+            // txtTLG
+            // 
+            this.txtTLG.Location = new System.Drawing.Point(69, 115);
+            this.txtTLG.Name = "txtTLG";
+            this.txtTLG.Size = new System.Drawing.Size(35, 24);
+            this.txtTLG.TabIndex = 67;
+            // 
+            // txtMLG
+            // 
+            this.txtMLG.Location = new System.Drawing.Point(69, 147);
+            this.txtMLG.Name = "txtMLG";
+            this.txtMLG.Size = new System.Drawing.Size(35, 24);
+            this.txtMLG.TabIndex = 68;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(9, 54);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(51, 19);
+            this.label37.TabIndex = 75;
+            this.label37.Text = "水灵根:";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(9, 86);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(51, 19);
+            this.label38.TabIndex = 76;
+            this.label38.Text = "雷灵根:";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(9, 118);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(51, 19);
+            this.label39.TabIndex = 77;
+            this.label39.Text = "土灵根:";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(9, 150);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(51, 19);
+            this.label40.TabIndex = 78;
+            this.label40.Text = "木灵根:";
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.label30);
+            this.groupBox15.Controls.Add(this.txtDF);
+            this.groupBox15.Controls.Add(this.txtQF);
+            this.groupBox15.Controls.Add(this.txtJF);
+            this.groupBox15.Controls.Add(this.txtQuanFa);
+            this.groupBox15.Controls.Add(this.txtZF);
+            this.groupBox15.Controls.Add(this.txtZhiFa);
+            this.groupBox15.Controls.Add(this.label31);
+            this.groupBox15.Controls.Add(this.label32);
+            this.groupBox15.Controls.Add(this.label33);
+            this.groupBox15.Controls.Add(this.label34);
+            this.groupBox15.Controls.Add(this.label35);
+            this.groupBox15.Location = new System.Drawing.Point(632, 190);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(103, 208);
+            this.groupBox15.TabIndex = 110;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "功法资质";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(16, 22);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(38, 19);
+            this.label30.TabIndex = 57;
+            this.label30.Text = "刀法:";
+            // 
+            // txtDF
+            // 
+            this.txtDF.Location = new System.Drawing.Point(62, 19);
+            this.txtDF.Name = "txtDF";
+            this.txtDF.Size = new System.Drawing.Size(35, 24);
+            this.txtDF.TabIndex = 58;
+            // 
+            // txtQF
+            // 
+            this.txtQF.Location = new System.Drawing.Point(62, 51);
+            this.txtQF.Name = "txtQF";
+            this.txtQF.Size = new System.Drawing.Size(35, 24);
+            this.txtQF.TabIndex = 59;
+            // 
+            // txtJF
+            // 
+            this.txtJF.Location = new System.Drawing.Point(62, 83);
+            this.txtJF.Name = "txtJF";
+            this.txtJF.Size = new System.Drawing.Size(35, 24);
+            this.txtJF.TabIndex = 60;
+            // 
+            // txtQuanFa
+            // 
+            this.txtQuanFa.Location = new System.Drawing.Point(62, 115);
+            this.txtQuanFa.Name = "txtQuanFa";
+            this.txtQuanFa.Size = new System.Drawing.Size(35, 24);
+            this.txtQuanFa.TabIndex = 61;
+            // 
+            // txtZF
+            // 
+            this.txtZF.Location = new System.Drawing.Point(62, 147);
+            this.txtZF.Name = "txtZF";
+            this.txtZF.Size = new System.Drawing.Size(35, 24);
+            this.txtZF.TabIndex = 62;
+            // 
+            // txtZhiFa
+            // 
+            this.txtZhiFa.Location = new System.Drawing.Point(62, 179);
+            this.txtZhiFa.Name = "txtZhiFa";
+            this.txtZhiFa.Size = new System.Drawing.Size(35, 24);
+            this.txtZhiFa.TabIndex = 63;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(16, 54);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(38, 19);
+            this.label31.TabIndex = 69;
+            this.label31.Text = "枪法:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(16, 86);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(38, 19);
+            this.label32.TabIndex = 70;
+            this.label32.Text = "剑法:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(16, 118);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(38, 19);
+            this.label33.TabIndex = 71;
+            this.label33.Text = "拳法:";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(16, 150);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(38, 19);
+            this.label34.TabIndex = 72;
+            this.label34.Text = "掌法:";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(16, 182);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(38, 19);
+            this.label35.TabIndex = 73;
+            this.label35.Text = "指法:";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.label55);
+            this.groupBox13.Controls.Add(this.label53);
+            this.groupBox13.Controls.Add(this.txtLingshi2);
+            this.groupBox13.Controls.Add(this.txtML);
+            this.groupBox13.Controls.Add(this.txtSW);
+            this.groupBox13.Controls.Add(this.label17);
+            this.groupBox13.Controls.Add(this.label54);
+            this.groupBox13.Controls.Add(this.label18);
+            this.groupBox13.Controls.Add(this.txtDX);
+            this.groupBox13.Controls.Add(this.txtMD);
+            this.groupBox13.Controls.Add(this.label29);
+            this.groupBox13.Controls.Add(this.txtZD);
+            this.groupBox13.Location = new System.Drawing.Point(232, 6);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(218, 127);
+            this.groupBox13.TabIndex = 108;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "基本属性";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(9, 88);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(38, 19);
+            this.label55.TabIndex = 106;
+            this.label55.Text = "灵石:";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(9, 19);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(38, 19);
+            this.label53.TabIndex = 101;
+            this.label53.Text = "正道:";
+            // 
+            // txtLingshi2
+            // 
+            this.txtLingshi2.Location = new System.Drawing.Point(53, 85);
+            this.txtLingshi2.Name = "txtLingshi2";
+            this.txtLingshi2.Size = new System.Drawing.Size(60, 24);
+            this.txtLingshi2.TabIndex = 105;
+            // 
+            // txtML
+            // 
+            this.txtML.Location = new System.Drawing.Point(163, 53);
+            this.txtML.Name = "txtML";
+            this.txtML.Size = new System.Drawing.Size(35, 24);
+            this.txtML.TabIndex = 19;
+            // 
+            // txtSW
+            // 
+            this.txtSW.Location = new System.Drawing.Point(163, 83);
+            this.txtSW.Name = "txtSW";
+            this.txtSW.Size = new System.Drawing.Size(35, 24);
+            this.txtSW.TabIndex = 20;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(119, 55);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(38, 19);
+            this.label17.TabIndex = 33;
+            this.label17.Text = "魅力:";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(9, 53);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(38, 19);
+            this.label54.TabIndex = 102;
+            this.label54.Text = "魔道:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(119, 88);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(38, 19);
+            this.label18.TabIndex = 34;
+            this.label18.Text = "声望:";
+            // 
+            // txtDX
+            // 
+            this.txtDX.Location = new System.Drawing.Point(163, 23);
+            this.txtDX.Name = "txtDX";
+            this.txtDX.Size = new System.Drawing.Size(35, 24);
+            this.txtDX.TabIndex = 46;
+            // 
+            // txtMD
+            // 
+            this.txtMD.Location = new System.Drawing.Point(53, 53);
+            this.txtMD.Name = "txtMD";
+            this.txtMD.Size = new System.Drawing.Size(60, 24);
+            this.txtMD.TabIndex = 100;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(119, 23);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(38, 19);
+            this.label29.TabIndex = 56;
+            this.label29.Text = "道点:";
+            // 
+            // txtZD
+            // 
+            this.txtZD.Location = new System.Drawing.Point(53, 19);
+            this.txtZD.Name = "txtZD";
+            this.txtZD.Size = new System.Drawing.Size(60, 24);
+            this.txtZD.TabIndex = 99;
             // 
             // groupBox10
             // 
@@ -519,76 +1176,12 @@ namespace guigubahuang
             this.groupBox6.Controls.Add(this.txtSM2);
             this.groupBox6.Controls.Add(this.txtSM1);
             this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Location = new System.Drawing.Point(9, 137);
+            this.groupBox6.Location = new System.Drawing.Point(6, 190);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(374, 259);
+            this.groupBox6.Size = new System.Drawing.Size(374, 206);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "个人属性";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(9, 88);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(38, 19);
-            this.label55.TabIndex = 106;
-            this.label55.Text = "灵石:";
-            // 
-            // txtLingshi2
-            // 
-            this.txtLingshi2.Location = new System.Drawing.Point(53, 85);
-            this.txtLingshi2.Name = "txtLingshi2";
-            this.txtLingshi2.Size = new System.Drawing.Size(60, 24);
-            this.txtLingshi2.TabIndex = 105;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 180);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 19);
-            this.label5.TabIndex = 104;
-            this.label5.Text = "风灵根:";
-            // 
-            // txtFLG
-            // 
-            this.txtFLG.Location = new System.Drawing.Point(69, 177);
-            this.txtFLG.Name = "txtFLG";
-            this.txtFLG.Size = new System.Drawing.Size(35, 24);
-            this.txtFLG.TabIndex = 103;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(9, 53);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(38, 19);
-            this.label54.TabIndex = 102;
-            this.label54.Text = "魔道:";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(9, 19);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(38, 19);
-            this.label53.TabIndex = 101;
-            this.label53.Text = "正道:";
-            // 
-            // txtMD
-            // 
-            this.txtMD.Location = new System.Drawing.Point(53, 53);
-            this.txtMD.Name = "txtMD";
-            this.txtMD.Size = new System.Drawing.Size(60, 24);
-            this.txtMD.TabIndex = 100;
-            // 
-            // txtZD
-            // 
-            this.txtZD.Location = new System.Drawing.Point(53, 19);
-            this.txtZD.Name = "txtZD";
-            this.txtZD.Size = new System.Drawing.Size(60, 24);
-            this.txtZD.TabIndex = 99;
             // 
             // label52
             // 
@@ -643,472 +1236,6 @@ namespace guigubahuang
             this.label47.Size = new System.Drawing.Size(15, 19);
             this.label47.TabIndex = 93;
             this.label47.Text = "/";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(17, 180);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(38, 19);
-            this.label46.TabIndex = 90;
-            this.label46.Text = "矿材:";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(17, 148);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(38, 19);
-            this.label45.TabIndex = 89;
-            this.label45.Text = "药材:";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(17, 116);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(38, 19);
-            this.label44.TabIndex = 88;
-            this.label44.Text = "画符:";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(17, 84);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(38, 19);
-            this.label43.TabIndex = 87;
-            this.label43.Text = "风水:";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(17, 52);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(38, 19);
-            this.label42.TabIndex = 86;
-            this.label42.Text = "炼器:";
-            // 
-            // txtKC
-            // 
-            this.txtKC.Location = new System.Drawing.Point(63, 177);
-            this.txtKC.Name = "txtKC";
-            this.txtKC.Size = new System.Drawing.Size(35, 24);
-            this.txtKC.TabIndex = 85;
-            // 
-            // txtYC
-            // 
-            this.txtYC.Location = new System.Drawing.Point(63, 145);
-            this.txtYC.Name = "txtYC";
-            this.txtYC.Size = new System.Drawing.Size(35, 24);
-            this.txtYC.TabIndex = 84;
-            // 
-            // txtHF
-            // 
-            this.txtHF.Location = new System.Drawing.Point(63, 113);
-            this.txtHF.Name = "txtHF";
-            this.txtHF.Size = new System.Drawing.Size(35, 24);
-            this.txtHF.TabIndex = 83;
-            // 
-            // txtFS
-            // 
-            this.txtFS.Location = new System.Drawing.Point(63, 81);
-            this.txtFS.Name = "txtFS";
-            this.txtFS.Size = new System.Drawing.Size(35, 24);
-            this.txtFS.TabIndex = 82;
-            // 
-            // txtLQ
-            // 
-            this.txtLQ.Location = new System.Drawing.Point(63, 49);
-            this.txtLQ.Name = "txtLQ";
-            this.txtLQ.Size = new System.Drawing.Size(35, 24);
-            this.txtLQ.TabIndex = 81;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(17, 20);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(38, 19);
-            this.label41.TabIndex = 80;
-            this.label41.Text = "炼丹:";
-            // 
-            // txtLD
-            // 
-            this.txtLD.Location = new System.Drawing.Point(63, 17);
-            this.txtLD.Name = "txtLD";
-            this.txtLD.Size = new System.Drawing.Size(35, 24);
-            this.txtLD.TabIndex = 79;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(9, 150);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(51, 19);
-            this.label40.TabIndex = 78;
-            this.label40.Text = "木灵根:";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(9, 118);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(51, 19);
-            this.label39.TabIndex = 77;
-            this.label39.Text = "土灵根:";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(9, 86);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(51, 19);
-            this.label38.TabIndex = 76;
-            this.label38.Text = "雷灵根:";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(9, 54);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(51, 19);
-            this.label37.TabIndex = 75;
-            this.label37.Text = "水灵根:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(9, 22);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(51, 19);
-            this.label36.TabIndex = 74;
-            this.label36.Text = "火灵根:";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(16, 182);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(38, 19);
-            this.label35.TabIndex = 73;
-            this.label35.Text = "指法:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(16, 150);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(38, 19);
-            this.label34.TabIndex = 72;
-            this.label34.Text = "掌法:";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(16, 118);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(38, 19);
-            this.label33.TabIndex = 71;
-            this.label33.Text = "拳法:";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(16, 86);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(38, 19);
-            this.label32.TabIndex = 70;
-            this.label32.Text = "剑法:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(16, 54);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(38, 19);
-            this.label31.TabIndex = 69;
-            this.label31.Text = "枪法:";
-            // 
-            // txtMLG
-            // 
-            this.txtMLG.Location = new System.Drawing.Point(69, 147);
-            this.txtMLG.Name = "txtMLG";
-            this.txtMLG.Size = new System.Drawing.Size(35, 24);
-            this.txtMLG.TabIndex = 68;
-            // 
-            // txtTLG
-            // 
-            this.txtTLG.Location = new System.Drawing.Point(69, 115);
-            this.txtTLG.Name = "txtTLG";
-            this.txtTLG.Size = new System.Drawing.Size(35, 24);
-            this.txtTLG.TabIndex = 67;
-            // 
-            // txtLLG
-            // 
-            this.txtLLG.Location = new System.Drawing.Point(69, 83);
-            this.txtLLG.Name = "txtLLG";
-            this.txtLLG.Size = new System.Drawing.Size(35, 24);
-            this.txtLLG.TabIndex = 66;
-            // 
-            // txtSLG
-            // 
-            this.txtSLG.Location = new System.Drawing.Point(69, 51);
-            this.txtSLG.Name = "txtSLG";
-            this.txtSLG.Size = new System.Drawing.Size(35, 24);
-            this.txtSLG.TabIndex = 65;
-            // 
-            // txtHLG
-            // 
-            this.txtHLG.Location = new System.Drawing.Point(69, 19);
-            this.txtHLG.Name = "txtHLG";
-            this.txtHLG.Size = new System.Drawing.Size(35, 24);
-            this.txtHLG.TabIndex = 64;
-            // 
-            // txtZhiFa
-            // 
-            this.txtZhiFa.Location = new System.Drawing.Point(62, 179);
-            this.txtZhiFa.Name = "txtZhiFa";
-            this.txtZhiFa.Size = new System.Drawing.Size(35, 24);
-            this.txtZhiFa.TabIndex = 63;
-            // 
-            // txtZF
-            // 
-            this.txtZF.Location = new System.Drawing.Point(62, 147);
-            this.txtZF.Name = "txtZF";
-            this.txtZF.Size = new System.Drawing.Size(35, 24);
-            this.txtZF.TabIndex = 62;
-            // 
-            // txtQuanFa
-            // 
-            this.txtQuanFa.Location = new System.Drawing.Point(62, 115);
-            this.txtQuanFa.Name = "txtQuanFa";
-            this.txtQuanFa.Size = new System.Drawing.Size(35, 24);
-            this.txtQuanFa.TabIndex = 61;
-            // 
-            // txtJF
-            // 
-            this.txtJF.Location = new System.Drawing.Point(62, 83);
-            this.txtJF.Name = "txtJF";
-            this.txtJF.Size = new System.Drawing.Size(35, 24);
-            this.txtJF.TabIndex = 60;
-            // 
-            // txtQF
-            // 
-            this.txtQF.Location = new System.Drawing.Point(62, 51);
-            this.txtQF.Name = "txtQF";
-            this.txtQF.Size = new System.Drawing.Size(35, 24);
-            this.txtQF.TabIndex = 59;
-            // 
-            // txtDF
-            // 
-            this.txtDF.Location = new System.Drawing.Point(62, 19);
-            this.txtDF.Name = "txtDF";
-            this.txtDF.Size = new System.Drawing.Size(35, 24);
-            this.txtDF.TabIndex = 58;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(16, 22);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(38, 19);
-            this.label30.TabIndex = 57;
-            this.label30.Text = "刀法:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(119, 23);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(38, 19);
-            this.label29.TabIndex = 56;
-            this.label29.Text = "道点:";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(118, 152);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(64, 19);
-            this.label28.TabIndex = 55;
-            this.label28.Text = "抗暴倍数:";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(118, 120);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(64, 19);
-            this.label27.TabIndex = 54;
-            this.label27.Text = "暴击倍数:";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(146, 88);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(38, 19);
-            this.label26.TabIndex = 53;
-            this.label26.Text = "移速:";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(146, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(38, 19);
-            this.label25.TabIndex = 52;
-            this.label25.Text = "护心:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(146, 24);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(38, 19);
-            this.label24.TabIndex = 51;
-            this.label24.Text = "会心:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 152);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 19);
-            this.label23.TabIndex = 50;
-            this.label23.Text = "灵根抗性:";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 120);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(64, 19);
-            this.label22.TabIndex = 49;
-            this.label22.Text = "功法抗性:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(31, 88);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(38, 19);
-            this.label21.TabIndex = 48;
-            this.label21.Text = "脚力:";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(31, 56);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(38, 19);
-            this.label20.TabIndex = 47;
-            this.label20.Text = "防御:";
-            // 
-            // txtDX
-            // 
-            this.txtDX.Location = new System.Drawing.Point(163, 23);
-            this.txtDX.Name = "txtDX";
-            this.txtDX.Size = new System.Drawing.Size(35, 24);
-            this.txtDX.TabIndex = 46;
-            // 
-            // txtKBBS
-            // 
-            this.txtKBBS.Location = new System.Drawing.Point(192, 149);
-            this.txtKBBS.Name = "txtKBBS";
-            this.txtKBBS.Size = new System.Drawing.Size(35, 24);
-            this.txtKBBS.TabIndex = 45;
-            // 
-            // txtKJBS
-            // 
-            this.txtKJBS.Location = new System.Drawing.Point(192, 117);
-            this.txtKJBS.Name = "txtKJBS";
-            this.txtKJBS.Size = new System.Drawing.Size(35, 24);
-            this.txtKJBS.TabIndex = 44;
-            // 
-            // txtYS
-            // 
-            this.txtYS.Location = new System.Drawing.Point(192, 85);
-            this.txtYS.Name = "txtYS";
-            this.txtYS.Size = new System.Drawing.Size(35, 24);
-            this.txtYS.TabIndex = 43;
-            // 
-            // txtHuXin
-            // 
-            this.txtHuXin.Location = new System.Drawing.Point(192, 53);
-            this.txtHuXin.Name = "txtHuXin";
-            this.txtHuXin.Size = new System.Drawing.Size(35, 24);
-            this.txtHuXin.TabIndex = 42;
-            // 
-            // txtHX
-            // 
-            this.txtHX.Location = new System.Drawing.Point(192, 21);
-            this.txtHX.Name = "txtHX";
-            this.txtHX.Size = new System.Drawing.Size(35, 24);
-            this.txtHX.TabIndex = 41;
-            // 
-            // txtLGKX
-            // 
-            this.txtLGKX.Location = new System.Drawing.Point(77, 149);
-            this.txtLGKX.Name = "txtLGKX";
-            this.txtLGKX.Size = new System.Drawing.Size(35, 24);
-            this.txtLGKX.TabIndex = 40;
-            // 
-            // txtGFKX
-            // 
-            this.txtGFKX.Location = new System.Drawing.Point(77, 117);
-            this.txtGFKX.Name = "txtGFKX";
-            this.txtGFKX.Size = new System.Drawing.Size(35, 24);
-            this.txtGFKX.TabIndex = 39;
-            // 
-            // txtJL
-            // 
-            this.txtJL.Location = new System.Drawing.Point(77, 85);
-            this.txtJL.Name = "txtJL";
-            this.txtJL.Size = new System.Drawing.Size(35, 24);
-            this.txtJL.TabIndex = 38;
-            // 
-            // txtFY
-            // 
-            this.txtFY.Location = new System.Drawing.Point(77, 53);
-            this.txtFY.Name = "txtFY";
-            this.txtFY.Size = new System.Drawing.Size(35, 24);
-            this.txtFY.TabIndex = 37;
-            // 
-            // txtGJ
-            // 
-            this.txtGJ.Location = new System.Drawing.Point(77, 21);
-            this.txtGJ.Name = "txtGJ";
-            this.txtGJ.Size = new System.Drawing.Size(35, 24);
-            this.txtGJ.TabIndex = 36;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(31, 24);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(38, 19);
-            this.label19.TabIndex = 35;
-            this.label19.Text = "攻击:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(119, 88);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(38, 19);
-            this.label18.TabIndex = 34;
-            this.label18.Text = "声望:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(119, 55);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 19);
-            this.label17.TabIndex = 33;
-            this.label17.Text = "魅力:";
             // 
             // label16
             // 
@@ -1172,20 +1299,6 @@ namespace guigubahuang
             this.label10.Size = new System.Drawing.Size(38, 19);
             this.label10.TabIndex = 26;
             this.label10.Text = "健康:";
-            // 
-            // txtSW
-            // 
-            this.txtSW.Location = new System.Drawing.Point(163, 83);
-            this.txtSW.Name = "txtSW";
-            this.txtSW.Size = new System.Drawing.Size(35, 24);
-            this.txtSW.TabIndex = 20;
-            // 
-            // txtML
-            // 
-            this.txtML.Location = new System.Drawing.Point(163, 53);
-            this.txtML.Name = "txtML";
-            this.txtML.Size = new System.Drawing.Size(35, 24);
-            this.txtML.TabIndex = 19;
             // 
             // txtWX
             // 
@@ -1516,7 +1629,7 @@ namespace guigubahuang
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 19);
             this.label4.TabIndex = 7;
-            this.label4.Text = "爱好：";
+            this.label4.Text = "兴趣：";
             // 
             // cboXG3
             // 
@@ -1604,7 +1717,7 @@ namespace guigubahuang
             this.tabPage5.Location = new System.Drawing.Point(4, 26);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(920, 599);
+            this.tabPage5.Size = new System.Drawing.Size(973, 599);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "关系";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1921,7 +2034,7 @@ namespace guigubahuang
             this.tabPage7.Controls.Add(this.label73);
             this.tabPage7.Location = new System.Drawing.Point(4, 26);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(920, 599);
+            this.tabPage7.Size = new System.Drawing.Size(973, 599);
             this.tabPage7.TabIndex = 3;
             this.tabPage7.Text = "形象";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1948,6 +2061,15 @@ namespace guigubahuang
             this.gBoxUnit.Size = new System.Drawing.Size(178, 623);
             this.gBoxUnit.TabIndex = 0;
             this.gBoxUnit.TabStop = false;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(6, 584);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(48, 19);
+            this.label74.TabIndex = 2;
+            this.label74.Text = "搜索：";
             // 
             // txtSearchUnit
             // 
@@ -2406,128 +2528,6 @@ namespace guigubahuang
             this.lBoxBakDIr.Size = new System.Drawing.Size(294, 548);
             this.lBoxBakDIr.TabIndex = 0;
             // 
-            // groupBox13
-            // 
-            this.groupBox13.Controls.Add(this.label55);
-            this.groupBox13.Controls.Add(this.label53);
-            this.groupBox13.Controls.Add(this.txtLingshi2);
-            this.groupBox13.Controls.Add(this.txtML);
-            this.groupBox13.Controls.Add(this.txtSW);
-            this.groupBox13.Controls.Add(this.label17);
-            this.groupBox13.Controls.Add(this.label54);
-            this.groupBox13.Controls.Add(this.label18);
-            this.groupBox13.Controls.Add(this.txtDX);
-            this.groupBox13.Controls.Add(this.txtMD);
-            this.groupBox13.Controls.Add(this.label29);
-            this.groupBox13.Controls.Add(this.txtZD);
-            this.groupBox13.Location = new System.Drawing.Point(254, 6);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(218, 127);
-            this.groupBox13.TabIndex = 108;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "基本属性";
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.Controls.Add(this.txtHX);
-            this.groupBox14.Controls.Add(this.label19);
-            this.groupBox14.Controls.Add(this.txtGJ);
-            this.groupBox14.Controls.Add(this.txtFY);
-            this.groupBox14.Controls.Add(this.txtJL);
-            this.groupBox14.Controls.Add(this.txtGFKX);
-            this.groupBox14.Controls.Add(this.txtLGKX);
-            this.groupBox14.Controls.Add(this.txtHuXin);
-            this.groupBox14.Controls.Add(this.txtYS);
-            this.groupBox14.Controls.Add(this.txtKJBS);
-            this.groupBox14.Controls.Add(this.txtKBBS);
-            this.groupBox14.Controls.Add(this.label20);
-            this.groupBox14.Controls.Add(this.label21);
-            this.groupBox14.Controls.Add(this.label22);
-            this.groupBox14.Controls.Add(this.label23);
-            this.groupBox14.Controls.Add(this.label24);
-            this.groupBox14.Controls.Add(this.label25);
-            this.groupBox14.Controls.Add(this.label26);
-            this.groupBox14.Controls.Add(this.label27);
-            this.groupBox14.Controls.Add(this.label28);
-            this.groupBox14.Location = new System.Drawing.Point(389, 190);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(237, 206);
-            this.groupBox14.TabIndex = 109;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "战斗属性";
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.Controls.Add(this.label30);
-            this.groupBox15.Controls.Add(this.txtDF);
-            this.groupBox15.Controls.Add(this.txtQF);
-            this.groupBox15.Controls.Add(this.txtJF);
-            this.groupBox15.Controls.Add(this.txtQuanFa);
-            this.groupBox15.Controls.Add(this.txtZF);
-            this.groupBox15.Controls.Add(this.txtZhiFa);
-            this.groupBox15.Controls.Add(this.label31);
-            this.groupBox15.Controls.Add(this.label32);
-            this.groupBox15.Controls.Add(this.label33);
-            this.groupBox15.Controls.Add(this.label34);
-            this.groupBox15.Controls.Add(this.label35);
-            this.groupBox15.Location = new System.Drawing.Point(632, 190);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(103, 208);
-            this.groupBox15.TabIndex = 110;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "功法资质";
-            // 
-            // groupBox16
-            // 
-            this.groupBox16.Controls.Add(this.label5);
-            this.groupBox16.Controls.Add(this.label36);
-            this.groupBox16.Controls.Add(this.txtFLG);
-            this.groupBox16.Controls.Add(this.txtHLG);
-            this.groupBox16.Controls.Add(this.txtSLG);
-            this.groupBox16.Controls.Add(this.txtLLG);
-            this.groupBox16.Controls.Add(this.txtTLG);
-            this.groupBox16.Controls.Add(this.txtMLG);
-            this.groupBox16.Controls.Add(this.label37);
-            this.groupBox16.Controls.Add(this.label38);
-            this.groupBox16.Controls.Add(this.label39);
-            this.groupBox16.Controls.Add(this.label40);
-            this.groupBox16.Location = new System.Drawing.Point(741, 190);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(110, 208);
-            this.groupBox16.TabIndex = 111;
-            this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "灵根资质";
-            // 
-            // groupBox17
-            // 
-            this.groupBox17.Controls.Add(this.label41);
-            this.groupBox17.Controls.Add(this.txtLD);
-            this.groupBox17.Controls.Add(this.txtLQ);
-            this.groupBox17.Controls.Add(this.txtFS);
-            this.groupBox17.Controls.Add(this.txtHF);
-            this.groupBox17.Controls.Add(this.txtYC);
-            this.groupBox17.Controls.Add(this.label46);
-            this.groupBox17.Controls.Add(this.txtKC);
-            this.groupBox17.Controls.Add(this.label45);
-            this.groupBox17.Controls.Add(this.label42);
-            this.groupBox17.Controls.Add(this.label44);
-            this.groupBox17.Controls.Add(this.label43);
-            this.groupBox17.Location = new System.Drawing.Point(857, 190);
-            this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(110, 206);
-            this.groupBox17.TabIndex = 112;
-            this.groupBox17.TabStop = false;
-            this.groupBox17.Text = "技艺资质";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(6, 584);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(48, 19);
-            this.label74.TabIndex = 2;
-            this.label74.Text = "搜索：";
-            // 
             // Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -2548,6 +2548,16 @@ namespace guigubahuang
             this.tabPage1.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -2576,16 +2586,6 @@ namespace guigubahuang
             this.groupBox2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox16.PerformLayout();
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox17.PerformLayout();
             this.ResumeLayout(false);
 
         }
