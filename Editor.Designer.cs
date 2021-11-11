@@ -1263,7 +1263,6 @@ namespace guigubahuang
             this.txtJK2.Name = "txtJK2";
             this.txtJK2.Size = new System.Drawing.Size(35, 24);
             this.txtJK2.TabIndex = 8;
-            this.txtJK2.TextChanged += new System.EventHandler(this.txtJK2_TextChanged);
             // 
             // txtJK1
             // 

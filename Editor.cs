@@ -1134,10 +1134,5 @@ namespace guigubahuang
             catch { }
             finally { Directory.CreateDirectory(Application.StartupPath + "\\bak"); }
         }
-
-        private void txtJK2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
