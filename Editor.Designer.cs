@@ -267,6 +267,12 @@ namespace guigubahuang
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.lBoxBakDIr = new System.Windows.Forms.ListBox();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.label74 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -291,6 +297,11 @@ namespace guigubahuang
             this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            this.groupBox17.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -300,20 +311,20 @@ namespace guigubahuang
             this.groupBox1.Controls.Add(this.btnLoadJson);
             this.groupBox1.Controls.Add(this.btnBrowse);
             this.groupBox1.Controls.Add(this.txtJsonPath);
-            this.groupBox1.Location = new System.Drawing.Point(12, 2);
+            this.groupBox1.Location = new System.Drawing.Point(1, 1);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1120, 75);
+            this.groupBox1.Size = new System.Drawing.Size(1181, 65);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // pgbWorkerState
             // 
-            this.pgbWorkerState.Location = new System.Drawing.Point(851, 32);
+            this.pgbWorkerState.Location = new System.Drawing.Point(6, 11);
             this.pgbWorkerState.MarqueeAnimationSpeed = 30;
             this.pgbWorkerState.Name = "pgbWorkerState";
-            this.pgbWorkerState.Size = new System.Drawing.Size(241, 23);
+            this.pgbWorkerState.Size = new System.Drawing.Size(1175, 10);
             this.pgbWorkerState.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.pgbWorkerState.TabIndex = 4;
             this.pgbWorkerState.Visible = false;
@@ -321,15 +332,15 @@ namespace guigubahuang
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 32);
+            this.label1.Location = new System.Drawing.Point(7, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
+            this.label1.Size = new System.Drawing.Size(64, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "存档目录:";
             // 
             // btnLoadJson
             // 
-            this.btnLoadJson.Location = new System.Drawing.Point(716, 25);
+            this.btnLoadJson.Location = new System.Drawing.Point(1090, 24);
             this.btnLoadJson.Name = "btnLoadJson";
             this.btnLoadJson.Size = new System.Drawing.Size(85, 35);
             this.btnLoadJson.TabIndex = 2;
@@ -339,7 +350,7 @@ namespace guigubahuang
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(616, 25);
+            this.btnBrowse.Location = new System.Drawing.Point(990, 24);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(85, 35);
             this.btnBrowse.TabIndex = 1;
@@ -349,9 +360,9 @@ namespace guigubahuang
             // 
             // txtJsonPath
             // 
-            this.txtJsonPath.Location = new System.Drawing.Point(95, 29);
+            this.txtJsonPath.Location = new System.Drawing.Point(81, 27);
             this.txtJsonPath.Name = "txtJsonPath";
-            this.txtJsonPath.Size = new System.Drawing.Size(499, 26);
+            this.txtJsonPath.Size = new System.Drawing.Size(903, 24);
             this.txtJsonPath.TabIndex = 0;
             // 
             // tabControl1
@@ -359,10 +370,10 @@ namespace guigubahuang
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(12, 84);
+            this.tabControl1.Location = new System.Drawing.Point(1, 73);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1124, 668);
+            this.tabControl1.Size = new System.Drawing.Size(1181, 668);
             this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
@@ -370,10 +381,10 @@ namespace guigubahuang
             // 
             this.tabPage1.Controls.Add(this.tabControl2);
             this.tabPage1.Controls.Add(this.gBoxUnit);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1116, 635);
+            this.tabPage1.Size = new System.Drawing.Size(1173, 638);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "角色";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -387,11 +398,16 @@ namespace guigubahuang
             this.tabControl2.Location = new System.Drawing.Point(189, 6);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(928, 629);
+            this.tabControl2.Size = new System.Drawing.Size(981, 629);
             this.tabControl2.TabIndex = 2;
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.groupBox14);
+            this.tabPage4.Controls.Add(this.groupBox17);
+            this.tabPage4.Controls.Add(this.groupBox16);
+            this.tabPage4.Controls.Add(this.groupBox15);
+            this.tabPage4.Controls.Add(this.groupBox13);
             this.tabPage4.Controls.Add(this.groupBox10);
             this.tabPage4.Controls.Add(this.groupBox6);
             this.tabPage4.Controls.Add(this.groupBox5);
@@ -399,10 +415,10 @@ namespace guigubahuang
             this.tabPage4.Controls.Add(this.groupBox7);
             this.tabPage4.Controls.Add(this.btnYYXG);
             this.tabPage4.Controls.Add(this.btnYJQM);
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Location = new System.Drawing.Point(4, 26);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(920, 596);
+            this.tabPage4.Size = new System.Drawing.Size(973, 599);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "属性";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -414,7 +430,7 @@ namespace guigubahuang
             this.groupBox10.Controls.Add(this.btnAddNTGM);
             this.groupBox10.Controls.Add(this.cboNiTianGaiMing);
             this.groupBox10.Controls.Add(this.lBoxNiTianGaiMing);
-            this.groupBox10.Location = new System.Drawing.Point(630, 186);
+            this.groupBox10.Location = new System.Drawing.Point(693, 412);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(274, 181);
             this.groupBox10.TabIndex = 107;
@@ -457,92 +473,26 @@ namespace guigubahuang
             this.cboNiTianGaiMing.FormattingEnabled = true;
             this.cboNiTianGaiMing.Location = new System.Drawing.Point(115, 25);
             this.cboNiTianGaiMing.Name = "cboNiTianGaiMing";
-            this.cboNiTianGaiMing.Size = new System.Drawing.Size(145, 28);
+            this.cboNiTianGaiMing.Size = new System.Drawing.Size(145, 25);
             this.cboNiTianGaiMing.TabIndex = 1;
             // 
             // lBoxNiTianGaiMing
             // 
             this.lBoxNiTianGaiMing.FormattingEnabled = true;
-            this.lBoxNiTianGaiMing.ItemHeight = 20;
+            this.lBoxNiTianGaiMing.ItemHeight = 17;
             this.lBoxNiTianGaiMing.Location = new System.Drawing.Point(6, 25);
             this.lBoxNiTianGaiMing.Name = "lBoxNiTianGaiMing";
-            this.lBoxNiTianGaiMing.Size = new System.Drawing.Size(103, 144);
+            this.lBoxNiTianGaiMing.Size = new System.Drawing.Size(103, 140);
             this.lBoxNiTianGaiMing.TabIndex = 0;
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.label55);
-            this.groupBox6.Controls.Add(this.txtLingshi2);
-            this.groupBox6.Controls.Add(this.label5);
-            this.groupBox6.Controls.Add(this.txtFLG);
-            this.groupBox6.Controls.Add(this.label54);
-            this.groupBox6.Controls.Add(this.label53);
-            this.groupBox6.Controls.Add(this.txtMD);
-            this.groupBox6.Controls.Add(this.txtZD);
             this.groupBox6.Controls.Add(this.label52);
             this.groupBox6.Controls.Add(this.label51);
             this.groupBox6.Controls.Add(this.label50);
             this.groupBox6.Controls.Add(this.label49);
             this.groupBox6.Controls.Add(this.label48);
             this.groupBox6.Controls.Add(this.label47);
-            this.groupBox6.Controls.Add(this.label46);
-            this.groupBox6.Controls.Add(this.label45);
-            this.groupBox6.Controls.Add(this.label44);
-            this.groupBox6.Controls.Add(this.label43);
-            this.groupBox6.Controls.Add(this.label42);
-            this.groupBox6.Controls.Add(this.txtKC);
-            this.groupBox6.Controls.Add(this.txtYC);
-            this.groupBox6.Controls.Add(this.txtHF);
-            this.groupBox6.Controls.Add(this.txtFS);
-            this.groupBox6.Controls.Add(this.txtLQ);
-            this.groupBox6.Controls.Add(this.label41);
-            this.groupBox6.Controls.Add(this.txtLD);
-            this.groupBox6.Controls.Add(this.label40);
-            this.groupBox6.Controls.Add(this.label39);
-            this.groupBox6.Controls.Add(this.label38);
-            this.groupBox6.Controls.Add(this.label37);
-            this.groupBox6.Controls.Add(this.label36);
-            this.groupBox6.Controls.Add(this.label35);
-            this.groupBox6.Controls.Add(this.label34);
-            this.groupBox6.Controls.Add(this.label33);
-            this.groupBox6.Controls.Add(this.label32);
-            this.groupBox6.Controls.Add(this.label31);
-            this.groupBox6.Controls.Add(this.txtMLG);
-            this.groupBox6.Controls.Add(this.txtTLG);
-            this.groupBox6.Controls.Add(this.txtLLG);
-            this.groupBox6.Controls.Add(this.txtSLG);
-            this.groupBox6.Controls.Add(this.txtHLG);
-            this.groupBox6.Controls.Add(this.txtZhiFa);
-            this.groupBox6.Controls.Add(this.txtZF);
-            this.groupBox6.Controls.Add(this.txtQuanFa);
-            this.groupBox6.Controls.Add(this.txtJF);
-            this.groupBox6.Controls.Add(this.txtQF);
-            this.groupBox6.Controls.Add(this.txtDF);
-            this.groupBox6.Controls.Add(this.label30);
-            this.groupBox6.Controls.Add(this.label29);
-            this.groupBox6.Controls.Add(this.label28);
-            this.groupBox6.Controls.Add(this.label27);
-            this.groupBox6.Controls.Add(this.label26);
-            this.groupBox6.Controls.Add(this.label25);
-            this.groupBox6.Controls.Add(this.label24);
-            this.groupBox6.Controls.Add(this.label23);
-            this.groupBox6.Controls.Add(this.label22);
-            this.groupBox6.Controls.Add(this.label21);
-            this.groupBox6.Controls.Add(this.label20);
-            this.groupBox6.Controls.Add(this.txtDX);
-            this.groupBox6.Controls.Add(this.txtKBBS);
-            this.groupBox6.Controls.Add(this.txtKJBS);
-            this.groupBox6.Controls.Add(this.txtYS);
-            this.groupBox6.Controls.Add(this.txtHuXin);
-            this.groupBox6.Controls.Add(this.txtHX);
-            this.groupBox6.Controls.Add(this.txtLGKX);
-            this.groupBox6.Controls.Add(this.txtGFKX);
-            this.groupBox6.Controls.Add(this.txtJL);
-            this.groupBox6.Controls.Add(this.txtFY);
-            this.groupBox6.Controls.Add(this.txtGJ);
-            this.groupBox6.Controls.Add(this.label19);
-            this.groupBox6.Controls.Add(this.label18);
-            this.groupBox6.Controls.Add(this.label17);
             this.groupBox6.Controls.Add(this.label16);
             this.groupBox6.Controls.Add(this.label15);
             this.groupBox6.Controls.Add(this.label14);
@@ -550,8 +500,6 @@ namespace guigubahuang
             this.groupBox6.Controls.Add(this.label12);
             this.groupBox6.Controls.Add(this.label11);
             this.groupBox6.Controls.Add(this.label10);
-            this.groupBox6.Controls.Add(this.txtSW);
-            this.groupBox6.Controls.Add(this.txtML);
             this.groupBox6.Controls.Add(this.txtWX);
             this.groupBox6.Controls.Add(this.txtXY);
             this.groupBox6.Controls.Add(this.txtNL2);
@@ -571,638 +519,639 @@ namespace guigubahuang
             this.groupBox6.Controls.Add(this.txtSM2);
             this.groupBox6.Controls.Add(this.txtSM1);
             this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Location = new System.Drawing.Point(6, 186);
+            this.groupBox6.Location = new System.Drawing.Point(9, 137);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(618, 404);
+            this.groupBox6.Size = new System.Drawing.Size(374, 259);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "个人属性";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(10, 374);
+            this.label55.Location = new System.Drawing.Point(9, 88);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(40, 20);
+            this.label55.Size = new System.Drawing.Size(38, 19);
             this.label55.TabIndex = 106;
             this.label55.Text = "灵石:";
             // 
             // txtLingshi2
             // 
-            this.txtLingshi2.Location = new System.Drawing.Point(52, 371);
+            this.txtLingshi2.Location = new System.Drawing.Point(53, 85);
             this.txtLingshi2.Name = "txtLingshi2";
-            this.txtLingshi2.Size = new System.Drawing.Size(147, 26);
+            this.txtLingshi2.Size = new System.Drawing.Size(60, 24);
             this.txtLingshi2.TabIndex = 105;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(489, 22);
+            this.label5.Location = new System.Drawing.Point(9, 180);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 20);
+            this.label5.Size = new System.Drawing.Size(51, 19);
             this.label5.TabIndex = 104;
             this.label5.Text = "风灵根:";
             // 
             // txtFLG
             // 
-            this.txtFLG.Location = new System.Drawing.Point(549, 19);
+            this.txtFLG.Location = new System.Drawing.Point(69, 177);
             this.txtFLG.Name = "txtFLG";
-            this.txtFLG.Size = new System.Drawing.Size(60, 26);
+            this.txtFLG.Size = new System.Drawing.Size(35, 24);
             this.txtFLG.TabIndex = 103;
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(503, 278);
+            this.label54.Location = new System.Drawing.Point(9, 53);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(40, 20);
+            this.label54.Size = new System.Drawing.Size(38, 19);
             this.label54.TabIndex = 102;
             this.label54.Text = "魔道:";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(503, 246);
+            this.label53.Location = new System.Drawing.Point(9, 19);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(40, 20);
+            this.label53.Size = new System.Drawing.Size(38, 19);
             this.label53.TabIndex = 101;
             this.label53.Text = "正道:";
             // 
             // txtMD
             // 
-            this.txtMD.Location = new System.Drawing.Point(549, 275);
+            this.txtMD.Location = new System.Drawing.Point(53, 53);
             this.txtMD.Name = "txtMD";
-            this.txtMD.Size = new System.Drawing.Size(60, 26);
+            this.txtMD.Size = new System.Drawing.Size(60, 24);
             this.txtMD.TabIndex = 100;
             // 
             // txtZD
             // 
-            this.txtZD.Location = new System.Drawing.Point(549, 243);
+            this.txtZD.Location = new System.Drawing.Point(53, 19);
             this.txtZD.Name = "txtZD";
-            this.txtZD.Size = new System.Drawing.Size(60, 26);
+            this.txtZD.Size = new System.Drawing.Size(60, 24);
             this.txtZD.TabIndex = 99;
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(118, 214);
+            this.label52.Location = new System.Drawing.Point(270, 86);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(15, 20);
+            this.label52.Size = new System.Drawing.Size(15, 19);
             this.label52.TabIndex = 98;
             this.label52.Text = "/";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(118, 182);
+            this.label51.Location = new System.Drawing.Point(270, 56);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(15, 20);
+            this.label51.Size = new System.Drawing.Size(15, 19);
             this.label51.TabIndex = 97;
             this.label51.Text = "/";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(118, 150);
+            this.label50.Location = new System.Drawing.Point(270, 22);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(15, 20);
+            this.label50.Size = new System.Drawing.Size(15, 19);
             this.label50.TabIndex = 96;
             this.label50.Text = "/";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(118, 118);
+            this.label49.Location = new System.Drawing.Point(93, 118);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(15, 20);
+            this.label49.Size = new System.Drawing.Size(15, 19);
             this.label49.TabIndex = 95;
             this.label49.Text = "/";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(118, 86);
+            this.label48.Location = new System.Drawing.Point(93, 86);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(15, 20);
+            this.label48.Size = new System.Drawing.Size(15, 19);
             this.label48.TabIndex = 94;
             this.label48.Text = "/";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(118, 54);
+            this.label47.Location = new System.Drawing.Point(93, 54);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(15, 20);
+            this.label47.Size = new System.Drawing.Size(15, 19);
             this.label47.TabIndex = 93;
             this.label47.Text = "/";
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(503, 214);
+            this.label46.Location = new System.Drawing.Point(17, 180);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(40, 20);
+            this.label46.Size = new System.Drawing.Size(38, 19);
             this.label46.TabIndex = 90;
             this.label46.Text = "矿材:";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(503, 182);
+            this.label45.Location = new System.Drawing.Point(17, 148);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(40, 20);
+            this.label45.Size = new System.Drawing.Size(38, 19);
             this.label45.TabIndex = 89;
             this.label45.Text = "药材:";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(503, 150);
+            this.label44.Location = new System.Drawing.Point(17, 116);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(40, 20);
+            this.label44.Size = new System.Drawing.Size(38, 19);
             this.label44.TabIndex = 88;
             this.label44.Text = "画符:";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(503, 118);
+            this.label43.Location = new System.Drawing.Point(17, 84);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(40, 20);
+            this.label43.Size = new System.Drawing.Size(38, 19);
             this.label43.TabIndex = 87;
             this.label43.Text = "风水:";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(503, 86);
+            this.label42.Location = new System.Drawing.Point(17, 52);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(40, 20);
+            this.label42.Size = new System.Drawing.Size(38, 19);
             this.label42.TabIndex = 86;
             this.label42.Text = "炼器:";
             // 
             // txtKC
             // 
-            this.txtKC.Location = new System.Drawing.Point(549, 211);
+            this.txtKC.Location = new System.Drawing.Point(63, 177);
             this.txtKC.Name = "txtKC";
-            this.txtKC.Size = new System.Drawing.Size(60, 26);
+            this.txtKC.Size = new System.Drawing.Size(35, 24);
             this.txtKC.TabIndex = 85;
             // 
             // txtYC
             // 
-            this.txtYC.Location = new System.Drawing.Point(549, 179);
+            this.txtYC.Location = new System.Drawing.Point(63, 145);
             this.txtYC.Name = "txtYC";
-            this.txtYC.Size = new System.Drawing.Size(60, 26);
+            this.txtYC.Size = new System.Drawing.Size(35, 24);
             this.txtYC.TabIndex = 84;
             // 
             // txtHF
             // 
-            this.txtHF.Location = new System.Drawing.Point(549, 147);
+            this.txtHF.Location = new System.Drawing.Point(63, 113);
             this.txtHF.Name = "txtHF";
-            this.txtHF.Size = new System.Drawing.Size(60, 26);
+            this.txtHF.Size = new System.Drawing.Size(35, 24);
             this.txtHF.TabIndex = 83;
             // 
             // txtFS
             // 
-            this.txtFS.Location = new System.Drawing.Point(549, 115);
+            this.txtFS.Location = new System.Drawing.Point(63, 81);
             this.txtFS.Name = "txtFS";
-            this.txtFS.Size = new System.Drawing.Size(60, 26);
+            this.txtFS.Size = new System.Drawing.Size(35, 24);
             this.txtFS.TabIndex = 82;
             // 
             // txtLQ
             // 
-            this.txtLQ.Location = new System.Drawing.Point(549, 83);
+            this.txtLQ.Location = new System.Drawing.Point(63, 49);
             this.txtLQ.Name = "txtLQ";
-            this.txtLQ.Size = new System.Drawing.Size(60, 26);
+            this.txtLQ.Size = new System.Drawing.Size(35, 24);
             this.txtLQ.TabIndex = 81;
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(503, 54);
+            this.label41.Location = new System.Drawing.Point(17, 20);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(40, 20);
+            this.label41.Size = new System.Drawing.Size(38, 19);
             this.label41.TabIndex = 80;
             this.label41.Text = "炼丹:";
             // 
             // txtLD
             // 
-            this.txtLD.Location = new System.Drawing.Point(549, 51);
+            this.txtLD.Location = new System.Drawing.Point(63, 17);
             this.txtLD.Name = "txtLD";
-            this.txtLD.Size = new System.Drawing.Size(60, 26);
+            this.txtLD.Size = new System.Drawing.Size(35, 24);
             this.txtLD.TabIndex = 79;
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(363, 342);
+            this.label40.Location = new System.Drawing.Point(9, 150);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(54, 20);
+            this.label40.Size = new System.Drawing.Size(51, 19);
             this.label40.TabIndex = 78;
             this.label40.Text = "木灵根:";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(363, 310);
+            this.label39.Location = new System.Drawing.Point(9, 118);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(54, 20);
+            this.label39.Size = new System.Drawing.Size(51, 19);
             this.label39.TabIndex = 77;
             this.label39.Text = "土灵根:";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(363, 278);
+            this.label38.Location = new System.Drawing.Point(9, 86);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(54, 20);
+            this.label38.Size = new System.Drawing.Size(51, 19);
             this.label38.TabIndex = 76;
             this.label38.Text = "雷灵根:";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(363, 246);
+            this.label37.Location = new System.Drawing.Point(9, 54);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(54, 20);
+            this.label37.Size = new System.Drawing.Size(51, 19);
             this.label37.TabIndex = 75;
             this.label37.Text = "水灵根:";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(363, 214);
+            this.label36.Location = new System.Drawing.Point(9, 22);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(54, 20);
+            this.label36.Size = new System.Drawing.Size(51, 19);
             this.label36.TabIndex = 74;
             this.label36.Text = "火灵根:";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(377, 182);
+            this.label35.Location = new System.Drawing.Point(16, 182);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(40, 20);
+            this.label35.Size = new System.Drawing.Size(38, 19);
             this.label35.TabIndex = 73;
             this.label35.Text = "指法:";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(377, 150);
+            this.label34.Location = new System.Drawing.Point(16, 150);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(40, 20);
+            this.label34.Size = new System.Drawing.Size(38, 19);
             this.label34.TabIndex = 72;
             this.label34.Text = "掌法:";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(377, 118);
+            this.label33.Location = new System.Drawing.Point(16, 118);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(40, 20);
+            this.label33.Size = new System.Drawing.Size(38, 19);
             this.label33.TabIndex = 71;
             this.label33.Text = "拳法:";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(377, 86);
+            this.label32.Location = new System.Drawing.Point(16, 86);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(40, 20);
+            this.label32.Size = new System.Drawing.Size(38, 19);
             this.label32.TabIndex = 70;
             this.label32.Text = "剑法:";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(377, 54);
+            this.label31.Location = new System.Drawing.Point(16, 54);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(40, 20);
+            this.label31.Size = new System.Drawing.Size(38, 19);
             this.label31.TabIndex = 69;
             this.label31.Text = "枪法:";
             // 
             // txtMLG
             // 
-            this.txtMLG.Location = new System.Drawing.Point(423, 339);
+            this.txtMLG.Location = new System.Drawing.Point(69, 147);
             this.txtMLG.Name = "txtMLG";
-            this.txtMLG.Size = new System.Drawing.Size(60, 26);
+            this.txtMLG.Size = new System.Drawing.Size(35, 24);
             this.txtMLG.TabIndex = 68;
             // 
             // txtTLG
             // 
-            this.txtTLG.Location = new System.Drawing.Point(423, 307);
+            this.txtTLG.Location = new System.Drawing.Point(69, 115);
             this.txtTLG.Name = "txtTLG";
-            this.txtTLG.Size = new System.Drawing.Size(60, 26);
+            this.txtTLG.Size = new System.Drawing.Size(35, 24);
             this.txtTLG.TabIndex = 67;
             // 
             // txtLLG
             // 
-            this.txtLLG.Location = new System.Drawing.Point(423, 275);
+            this.txtLLG.Location = new System.Drawing.Point(69, 83);
             this.txtLLG.Name = "txtLLG";
-            this.txtLLG.Size = new System.Drawing.Size(60, 26);
+            this.txtLLG.Size = new System.Drawing.Size(35, 24);
             this.txtLLG.TabIndex = 66;
             // 
             // txtSLG
             // 
-            this.txtSLG.Location = new System.Drawing.Point(423, 243);
+            this.txtSLG.Location = new System.Drawing.Point(69, 51);
             this.txtSLG.Name = "txtSLG";
-            this.txtSLG.Size = new System.Drawing.Size(60, 26);
+            this.txtSLG.Size = new System.Drawing.Size(35, 24);
             this.txtSLG.TabIndex = 65;
             // 
             // txtHLG
             // 
-            this.txtHLG.Location = new System.Drawing.Point(423, 211);
+            this.txtHLG.Location = new System.Drawing.Point(69, 19);
             this.txtHLG.Name = "txtHLG";
-            this.txtHLG.Size = new System.Drawing.Size(60, 26);
+            this.txtHLG.Size = new System.Drawing.Size(35, 24);
             this.txtHLG.TabIndex = 64;
             // 
             // txtZhiFa
             // 
-            this.txtZhiFa.Location = new System.Drawing.Point(423, 179);
+            this.txtZhiFa.Location = new System.Drawing.Point(62, 179);
             this.txtZhiFa.Name = "txtZhiFa";
-            this.txtZhiFa.Size = new System.Drawing.Size(60, 26);
+            this.txtZhiFa.Size = new System.Drawing.Size(35, 24);
             this.txtZhiFa.TabIndex = 63;
             // 
             // txtZF
             // 
-            this.txtZF.Location = new System.Drawing.Point(423, 147);
+            this.txtZF.Location = new System.Drawing.Point(62, 147);
             this.txtZF.Name = "txtZF";
-            this.txtZF.Size = new System.Drawing.Size(60, 26);
+            this.txtZF.Size = new System.Drawing.Size(35, 24);
             this.txtZF.TabIndex = 62;
             // 
             // txtQuanFa
             // 
-            this.txtQuanFa.Location = new System.Drawing.Point(423, 115);
+            this.txtQuanFa.Location = new System.Drawing.Point(62, 115);
             this.txtQuanFa.Name = "txtQuanFa";
-            this.txtQuanFa.Size = new System.Drawing.Size(60, 26);
+            this.txtQuanFa.Size = new System.Drawing.Size(35, 24);
             this.txtQuanFa.TabIndex = 61;
             // 
             // txtJF
             // 
-            this.txtJF.Location = new System.Drawing.Point(423, 83);
+            this.txtJF.Location = new System.Drawing.Point(62, 83);
             this.txtJF.Name = "txtJF";
-            this.txtJF.Size = new System.Drawing.Size(60, 26);
+            this.txtJF.Size = new System.Drawing.Size(35, 24);
             this.txtJF.TabIndex = 60;
             // 
             // txtQF
             // 
-            this.txtQF.Location = new System.Drawing.Point(423, 51);
+            this.txtQF.Location = new System.Drawing.Point(62, 51);
             this.txtQF.Name = "txtQF";
-            this.txtQF.Size = new System.Drawing.Size(60, 26);
+            this.txtQF.Size = new System.Drawing.Size(35, 24);
             this.txtQF.TabIndex = 59;
             // 
             // txtDF
             // 
-            this.txtDF.Location = new System.Drawing.Point(423, 19);
+            this.txtDF.Location = new System.Drawing.Point(62, 19);
             this.txtDF.Name = "txtDF";
-            this.txtDF.Size = new System.Drawing.Size(60, 26);
+            this.txtDF.Size = new System.Drawing.Size(35, 24);
             this.txtDF.TabIndex = 58;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(377, 22);
+            this.label30.Location = new System.Drawing.Point(16, 22);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(40, 20);
+            this.label30.Size = new System.Drawing.Size(38, 19);
             this.label30.TabIndex = 57;
             this.label30.Text = "刀法:";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(243, 342);
+            this.label29.Location = new System.Drawing.Point(119, 23);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(40, 20);
+            this.label29.Size = new System.Drawing.Size(38, 19);
             this.label29.TabIndex = 56;
             this.label29.Text = "道点:";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(215, 310);
+            this.label28.Location = new System.Drawing.Point(118, 152);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(68, 20);
+            this.label28.Size = new System.Drawing.Size(64, 19);
             this.label28.TabIndex = 55;
             this.label28.Text = "抗暴倍数:";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(215, 278);
+            this.label27.Location = new System.Drawing.Point(118, 120);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(68, 20);
+            this.label27.Size = new System.Drawing.Size(64, 19);
             this.label27.TabIndex = 54;
             this.label27.Text = "暴击倍数:";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(243, 246);
+            this.label26.Location = new System.Drawing.Point(146, 88);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(40, 20);
+            this.label26.Size = new System.Drawing.Size(38, 19);
             this.label26.TabIndex = 53;
             this.label26.Text = "移速:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(243, 214);
+            this.label25.Location = new System.Drawing.Point(146, 56);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(40, 20);
+            this.label25.Size = new System.Drawing.Size(38, 19);
             this.label25.TabIndex = 52;
             this.label25.Text = "护心:";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(243, 182);
+            this.label24.Location = new System.Drawing.Point(146, 24);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(40, 20);
+            this.label24.Size = new System.Drawing.Size(38, 19);
             this.label24.TabIndex = 51;
             this.label24.Text = "会心:";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(215, 150);
+            this.label23.Location = new System.Drawing.Point(3, 152);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 20);
+            this.label23.Size = new System.Drawing.Size(64, 19);
             this.label23.TabIndex = 50;
             this.label23.Text = "灵根抗性:";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(215, 118);
+            this.label22.Location = new System.Drawing.Point(3, 120);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(68, 20);
+            this.label22.Size = new System.Drawing.Size(64, 19);
             this.label22.TabIndex = 49;
             this.label22.Text = "功法抗性:";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(243, 86);
+            this.label21.Location = new System.Drawing.Point(31, 88);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(40, 20);
+            this.label21.Size = new System.Drawing.Size(38, 19);
             this.label21.TabIndex = 48;
             this.label21.Text = "脚力:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(243, 54);
+            this.label20.Location = new System.Drawing.Point(31, 56);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(40, 20);
+            this.label20.Size = new System.Drawing.Size(38, 19);
             this.label20.TabIndex = 47;
             this.label20.Text = "防御:";
             // 
             // txtDX
             // 
-            this.txtDX.Location = new System.Drawing.Point(289, 339);
+            this.txtDX.Location = new System.Drawing.Point(163, 23);
             this.txtDX.Name = "txtDX";
-            this.txtDX.Size = new System.Drawing.Size(60, 26);
+            this.txtDX.Size = new System.Drawing.Size(35, 24);
             this.txtDX.TabIndex = 46;
             // 
             // txtKBBS
             // 
-            this.txtKBBS.Location = new System.Drawing.Point(289, 307);
+            this.txtKBBS.Location = new System.Drawing.Point(192, 149);
             this.txtKBBS.Name = "txtKBBS";
-            this.txtKBBS.Size = new System.Drawing.Size(60, 26);
+            this.txtKBBS.Size = new System.Drawing.Size(35, 24);
             this.txtKBBS.TabIndex = 45;
             // 
             // txtKJBS
             // 
-            this.txtKJBS.Location = new System.Drawing.Point(289, 275);
+            this.txtKJBS.Location = new System.Drawing.Point(192, 117);
             this.txtKJBS.Name = "txtKJBS";
-            this.txtKJBS.Size = new System.Drawing.Size(60, 26);
+            this.txtKJBS.Size = new System.Drawing.Size(35, 24);
             this.txtKJBS.TabIndex = 44;
             // 
             // txtYS
             // 
-            this.txtYS.Location = new System.Drawing.Point(289, 243);
+            this.txtYS.Location = new System.Drawing.Point(192, 85);
             this.txtYS.Name = "txtYS";
-            this.txtYS.Size = new System.Drawing.Size(60, 26);
+            this.txtYS.Size = new System.Drawing.Size(35, 24);
             this.txtYS.TabIndex = 43;
             // 
             // txtHuXin
             // 
-            this.txtHuXin.Location = new System.Drawing.Point(289, 211);
+            this.txtHuXin.Location = new System.Drawing.Point(192, 53);
             this.txtHuXin.Name = "txtHuXin";
-            this.txtHuXin.Size = new System.Drawing.Size(60, 26);
+            this.txtHuXin.Size = new System.Drawing.Size(35, 24);
             this.txtHuXin.TabIndex = 42;
             // 
             // txtHX
             // 
-            this.txtHX.Location = new System.Drawing.Point(289, 179);
+            this.txtHX.Location = new System.Drawing.Point(192, 21);
             this.txtHX.Name = "txtHX";
-            this.txtHX.Size = new System.Drawing.Size(60, 26);
+            this.txtHX.Size = new System.Drawing.Size(35, 24);
             this.txtHX.TabIndex = 41;
             // 
             // txtLGKX
             // 
-            this.txtLGKX.Location = new System.Drawing.Point(289, 147);
+            this.txtLGKX.Location = new System.Drawing.Point(77, 149);
             this.txtLGKX.Name = "txtLGKX";
-            this.txtLGKX.Size = new System.Drawing.Size(60, 26);
+            this.txtLGKX.Size = new System.Drawing.Size(35, 24);
             this.txtLGKX.TabIndex = 40;
             // 
             // txtGFKX
             // 
-            this.txtGFKX.Location = new System.Drawing.Point(289, 115);
+            this.txtGFKX.Location = new System.Drawing.Point(77, 117);
             this.txtGFKX.Name = "txtGFKX";
-            this.txtGFKX.Size = new System.Drawing.Size(60, 26);
+            this.txtGFKX.Size = new System.Drawing.Size(35, 24);
             this.txtGFKX.TabIndex = 39;
             // 
             // txtJL
             // 
-            this.txtJL.Location = new System.Drawing.Point(289, 83);
+            this.txtJL.Location = new System.Drawing.Point(77, 85);
             this.txtJL.Name = "txtJL";
-            this.txtJL.Size = new System.Drawing.Size(60, 26);
+            this.txtJL.Size = new System.Drawing.Size(35, 24);
             this.txtJL.TabIndex = 38;
             // 
             // txtFY
             // 
-            this.txtFY.Location = new System.Drawing.Point(289, 51);
+            this.txtFY.Location = new System.Drawing.Point(77, 53);
             this.txtFY.Name = "txtFY";
-            this.txtFY.Size = new System.Drawing.Size(60, 26);
+            this.txtFY.Size = new System.Drawing.Size(35, 24);
             this.txtFY.TabIndex = 37;
             // 
             // txtGJ
             // 
-            this.txtGJ.Location = new System.Drawing.Point(289, 19);
+            this.txtGJ.Location = new System.Drawing.Point(77, 21);
             this.txtGJ.Name = "txtGJ";
-            this.txtGJ.Size = new System.Drawing.Size(60, 26);
+            this.txtGJ.Size = new System.Drawing.Size(35, 24);
             this.txtGJ.TabIndex = 36;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(243, 22);
+            this.label19.Location = new System.Drawing.Point(31, 24);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(40, 20);
+            this.label19.Size = new System.Drawing.Size(38, 19);
             this.label19.TabIndex = 35;
             this.label19.Text = "攻击:";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(10, 342);
+            this.label18.Location = new System.Drawing.Point(119, 88);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(40, 20);
+            this.label18.Size = new System.Drawing.Size(38, 19);
             this.label18.TabIndex = 34;
             this.label18.Text = "声望:";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(10, 310);
+            this.label17.Location = new System.Drawing.Point(119, 55);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(40, 20);
+            this.label17.Size = new System.Drawing.Size(38, 19);
             this.label17.TabIndex = 33;
             this.label17.Text = "魅力:";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(10, 278);
+            this.label16.Location = new System.Drawing.Point(147, 150);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 20);
+            this.label16.Size = new System.Drawing.Size(38, 19);
             this.label16.TabIndex = 32;
             this.label16.Text = "悟性:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(10, 246);
+            this.label15.Location = new System.Drawing.Point(147, 118);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(40, 20);
+            this.label15.Size = new System.Drawing.Size(38, 19);
             this.label15.TabIndex = 31;
             this.label15.Text = "幸运:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(10, 214);
+            this.label14.Location = new System.Drawing.Point(147, 86);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(40, 20);
+            this.label14.Size = new System.Drawing.Size(38, 19);
             this.label14.TabIndex = 30;
             this.label14.Text = "念力:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(10, 182);
+            this.label13.Location = new System.Drawing.Point(147, 54);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(40, 20);
+            this.label13.Size = new System.Drawing.Size(38, 19);
             this.label13.TabIndex = 29;
             this.label13.Text = "灵力:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(10, 150);
+            this.label12.Location = new System.Drawing.Point(147, 22);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(40, 20);
+            this.label12.Size = new System.Drawing.Size(38, 19);
             this.label12.TabIndex = 28;
             this.label12.Text = "体力:";
             // 
@@ -1211,7 +1160,7 @@ namespace guigubahuang
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(10, 118);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 20);
+            this.label11.Size = new System.Drawing.Size(38, 19);
             this.label11.TabIndex = 27;
             this.label11.Text = "精力:";
             // 
@@ -1220,120 +1169,121 @@ namespace guigubahuang
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(10, 86);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 20);
+            this.label10.Size = new System.Drawing.Size(38, 19);
             this.label10.TabIndex = 26;
             this.label10.Text = "健康:";
             // 
             // txtSW
             // 
-            this.txtSW.Location = new System.Drawing.Point(52, 339);
+            this.txtSW.Location = new System.Drawing.Point(163, 83);
             this.txtSW.Name = "txtSW";
-            this.txtSW.Size = new System.Drawing.Size(147, 26);
+            this.txtSW.Size = new System.Drawing.Size(35, 24);
             this.txtSW.TabIndex = 20;
             // 
             // txtML
             // 
-            this.txtML.Location = new System.Drawing.Point(52, 307);
+            this.txtML.Location = new System.Drawing.Point(163, 53);
             this.txtML.Name = "txtML";
-            this.txtML.Size = new System.Drawing.Size(147, 26);
+            this.txtML.Size = new System.Drawing.Size(35, 24);
             this.txtML.TabIndex = 19;
             // 
             // txtWX
             // 
-            this.txtWX.Location = new System.Drawing.Point(52, 275);
+            this.txtWX.Location = new System.Drawing.Point(189, 147);
             this.txtWX.Name = "txtWX";
-            this.txtWX.Size = new System.Drawing.Size(147, 26);
+            this.txtWX.Size = new System.Drawing.Size(35, 24);
             this.txtWX.TabIndex = 18;
             // 
             // txtXY
             // 
-            this.txtXY.Location = new System.Drawing.Point(52, 243);
+            this.txtXY.Location = new System.Drawing.Point(189, 115);
             this.txtXY.Name = "txtXY";
-            this.txtXY.Size = new System.Drawing.Size(147, 26);
+            this.txtXY.Size = new System.Drawing.Size(35, 24);
             this.txtXY.TabIndex = 17;
             // 
             // txtNL2
             // 
-            this.txtNL2.Location = new System.Drawing.Point(139, 211);
+            this.txtNL2.Location = new System.Drawing.Point(291, 83);
             this.txtNL2.Name = "txtNL2";
-            this.txtNL2.Size = new System.Drawing.Size(60, 26);
+            this.txtNL2.Size = new System.Drawing.Size(75, 24);
             this.txtNL2.TabIndex = 16;
             // 
             // txtNL1
             // 
-            this.txtNL1.Location = new System.Drawing.Point(52, 211);
+            this.txtNL1.Location = new System.Drawing.Point(189, 83);
             this.txtNL1.Name = "txtNL1";
-            this.txtNL1.Size = new System.Drawing.Size(60, 26);
+            this.txtNL1.Size = new System.Drawing.Size(75, 24);
             this.txtNL1.TabIndex = 15;
             // 
             // txtLL2
             // 
-            this.txtLL2.Location = new System.Drawing.Point(139, 179);
+            this.txtLL2.Location = new System.Drawing.Point(291, 51);
             this.txtLL2.Name = "txtLL2";
-            this.txtLL2.Size = new System.Drawing.Size(60, 26);
+            this.txtLL2.Size = new System.Drawing.Size(75, 24);
             this.txtLL2.TabIndex = 14;
             // 
             // txtLL1
             // 
-            this.txtLL1.Location = new System.Drawing.Point(52, 179);
+            this.txtLL1.Location = new System.Drawing.Point(189, 51);
             this.txtLL1.Name = "txtLL1";
-            this.txtLL1.Size = new System.Drawing.Size(60, 26);
+            this.txtLL1.Size = new System.Drawing.Size(75, 24);
             this.txtLL1.TabIndex = 13;
             // 
             // txtTL2
             // 
-            this.txtTL2.Location = new System.Drawing.Point(139, 147);
+            this.txtTL2.Location = new System.Drawing.Point(291, 21);
             this.txtTL2.Name = "txtTL2";
-            this.txtTL2.Size = new System.Drawing.Size(60, 26);
+            this.txtTL2.Size = new System.Drawing.Size(75, 24);
             this.txtTL2.TabIndex = 12;
             // 
             // txtTL1
             // 
-            this.txtTL1.Location = new System.Drawing.Point(52, 147);
+            this.txtTL1.Location = new System.Drawing.Point(189, 19);
             this.txtTL1.Name = "txtTL1";
-            this.txtTL1.Size = new System.Drawing.Size(60, 26);
+            this.txtTL1.Size = new System.Drawing.Size(75, 24);
             this.txtTL1.TabIndex = 11;
             // 
             // txtJL2
             // 
-            this.txtJL2.Location = new System.Drawing.Point(139, 115);
+            this.txtJL2.Location = new System.Drawing.Point(106, 113);
             this.txtJL2.Name = "txtJL2";
-            this.txtJL2.Size = new System.Drawing.Size(60, 26);
+            this.txtJL2.Size = new System.Drawing.Size(35, 24);
             this.txtJL2.TabIndex = 10;
             // 
             // txtJL1
             // 
             this.txtJL1.Location = new System.Drawing.Point(52, 115);
             this.txtJL1.Name = "txtJL1";
-            this.txtJL1.Size = new System.Drawing.Size(60, 26);
+            this.txtJL1.Size = new System.Drawing.Size(35, 24);
             this.txtJL1.TabIndex = 9;
             // 
             // txtJK2
             // 
-            this.txtJK2.Location = new System.Drawing.Point(139, 83);
+            this.txtJK2.Location = new System.Drawing.Point(106, 83);
             this.txtJK2.Name = "txtJK2";
-            this.txtJK2.Size = new System.Drawing.Size(60, 26);
+            this.txtJK2.Size = new System.Drawing.Size(35, 24);
             this.txtJK2.TabIndex = 8;
+            this.txtJK2.TextChanged += new System.EventHandler(this.txtJK2_TextChanged);
             // 
             // txtJK1
             // 
             this.txtJK1.Location = new System.Drawing.Point(52, 83);
             this.txtJK1.Name = "txtJK1";
-            this.txtJK1.Size = new System.Drawing.Size(60, 26);
+            this.txtJK1.Size = new System.Drawing.Size(35, 24);
             this.txtJK1.TabIndex = 7;
             // 
             // txtXQ2
             // 
-            this.txtXQ2.Location = new System.Drawing.Point(139, 51);
+            this.txtXQ2.Location = new System.Drawing.Point(106, 51);
             this.txtXQ2.Name = "txtXQ2";
-            this.txtXQ2.Size = new System.Drawing.Size(60, 26);
+            this.txtXQ2.Size = new System.Drawing.Size(35, 24);
             this.txtXQ2.TabIndex = 6;
             // 
             // txtXQ1
             // 
             this.txtXQ1.Location = new System.Drawing.Point(52, 51);
             this.txtXQ1.Name = "txtXQ1";
-            this.txtXQ1.Size = new System.Drawing.Size(60, 26);
+            this.txtXQ1.Size = new System.Drawing.Size(35, 24);
             this.txtXQ1.TabIndex = 5;
             // 
             // label9
@@ -1341,31 +1291,31 @@ namespace guigubahuang
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(10, 54);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 20);
+            this.label9.Size = new System.Drawing.Size(38, 19);
             this.label9.TabIndex = 4;
             this.label9.Text = "心情:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(118, 22);
+            this.label8.Location = new System.Drawing.Point(93, 22);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 20);
+            this.label8.Size = new System.Drawing.Size(15, 19);
             this.label8.TabIndex = 3;
             this.label8.Text = "/";
             // 
             // txtSM2
             // 
-            this.txtSM2.Location = new System.Drawing.Point(139, 19);
+            this.txtSM2.Location = new System.Drawing.Point(106, 19);
             this.txtSM2.Name = "txtSM2";
-            this.txtSM2.Size = new System.Drawing.Size(60, 26);
+            this.txtSM2.Size = new System.Drawing.Size(35, 24);
             this.txtSM2.TabIndex = 2;
             // 
             // txtSM1
             // 
             this.txtSM1.Location = new System.Drawing.Point(52, 19);
             this.txtSM1.Name = "txtSM1";
-            this.txtSM1.Size = new System.Drawing.Size(60, 26);
+            this.txtSM1.Size = new System.Drawing.Size(35, 24);
             this.txtSM1.TabIndex = 1;
             // 
             // label7
@@ -1373,9 +1323,9 @@ namespace guigubahuang
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(10, 22);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 20);
+            this.label7.Size = new System.Drawing.Size(38, 19);
             this.label7.TabIndex = 0;
-            this.label7.Text = "年龄:";
+            this.label7.Text = "寿命:";
             // 
             // groupBox5
             // 
@@ -1384,9 +1334,9 @@ namespace guigubahuang
             this.groupBox5.Controls.Add(this.btnAddDaoXin);
             this.groupBox5.Controls.Add(this.cboDaoXin);
             this.groupBox5.Controls.Add(this.lBoxDaoXin);
-            this.groupBox5.Location = new System.Drawing.Point(630, 3);
+            this.groupBox5.Location = new System.Drawing.Point(764, 6);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(274, 181);
+            this.groupBox5.Size = new System.Drawing.Size(203, 181);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "道心";
@@ -1395,7 +1345,7 @@ namespace guigubahuang
             // 
             this.btnDelDaoXin.Location = new System.Drawing.Point(115, 133);
             this.btnDelDaoXin.Name = "btnDelDaoXin";
-            this.btnDelDaoXin.Size = new System.Drawing.Size(145, 29);
+            this.btnDelDaoXin.Size = new System.Drawing.Size(75, 29);
             this.btnDelDaoXin.TabIndex = 4;
             this.btnDelDaoXin.Text = "删除";
             this.btnDelDaoXin.UseVisualStyleBackColor = true;
@@ -1405,7 +1355,7 @@ namespace guigubahuang
             // 
             this.btnChangedDaoXin.Location = new System.Drawing.Point(115, 98);
             this.btnChangedDaoXin.Name = "btnChangedDaoXin";
-            this.btnChangedDaoXin.Size = new System.Drawing.Size(145, 29);
+            this.btnChangedDaoXin.Size = new System.Drawing.Size(75, 29);
             this.btnChangedDaoXin.TabIndex = 3;
             this.btnChangedDaoXin.Text = "替换";
             this.btnChangedDaoXin.UseVisualStyleBackColor = true;
@@ -1415,7 +1365,7 @@ namespace guigubahuang
             // 
             this.btnAddDaoXin.Location = new System.Drawing.Point(115, 63);
             this.btnAddDaoXin.Name = "btnAddDaoXin";
-            this.btnAddDaoXin.Size = new System.Drawing.Size(145, 29);
+            this.btnAddDaoXin.Size = new System.Drawing.Size(75, 29);
             this.btnAddDaoXin.TabIndex = 2;
             this.btnAddDaoXin.Text = "添加";
             this.btnAddDaoXin.UseVisualStyleBackColor = true;
@@ -1427,16 +1377,16 @@ namespace guigubahuang
             this.cboDaoXin.FormattingEnabled = true;
             this.cboDaoXin.Location = new System.Drawing.Point(115, 29);
             this.cboDaoXin.Name = "cboDaoXin";
-            this.cboDaoXin.Size = new System.Drawing.Size(145, 28);
+            this.cboDaoXin.Size = new System.Drawing.Size(75, 25);
             this.cboDaoXin.TabIndex = 1;
             // 
             // lBoxDaoXin
             // 
             this.lBoxDaoXin.FormattingEnabled = true;
-            this.lBoxDaoXin.ItemHeight = 20;
+            this.lBoxDaoXin.ItemHeight = 17;
             this.lBoxDaoXin.Location = new System.Drawing.Point(6, 25);
             this.lBoxDaoXin.Name = "lBoxDaoXin";
-            this.lBoxDaoXin.Size = new System.Drawing.Size(103, 144);
+            this.lBoxDaoXin.Size = new System.Drawing.Size(103, 140);
             this.lBoxDaoXin.TabIndex = 0;
             // 
             // groupBox4
@@ -1446,18 +1396,18 @@ namespace guigubahuang
             this.groupBox4.Controls.Add(this.cboXTQY);
             this.groupBox4.Controls.Add(this.btnYCXZ);
             this.groupBox4.Controls.Add(this.lBoxXTQY);
-            this.groupBox4.Location = new System.Drawing.Point(314, 3);
+            this.groupBox4.Location = new System.Drawing.Point(553, 6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(310, 181);
+            this.groupBox4.Size = new System.Drawing.Size(205, 181);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "先天气运";
             // 
             // btnTJ
             // 
-            this.btnTJ.Location = new System.Drawing.Point(159, 63);
+            this.btnTJ.Location = new System.Drawing.Point(119, 63);
             this.btnTJ.Name = "btnTJ";
-            this.btnTJ.Size = new System.Drawing.Size(145, 29);
+            this.btnTJ.Size = new System.Drawing.Size(75, 29);
             this.btnTJ.TabIndex = 4;
             this.btnTJ.Text = "添加";
             this.btnTJ.UseVisualStyleBackColor = true;
@@ -1465,9 +1415,9 @@ namespace guigubahuang
             // 
             // btnTHXZ
             // 
-            this.btnTHXZ.Location = new System.Drawing.Point(159, 98);
+            this.btnTHXZ.Location = new System.Drawing.Point(119, 98);
             this.btnTHXZ.Name = "btnTHXZ";
-            this.btnTHXZ.Size = new System.Drawing.Size(145, 29);
+            this.btnTHXZ.Size = new System.Drawing.Size(75, 29);
             this.btnTHXZ.TabIndex = 3;
             this.btnTHXZ.Text = "替换";
             this.btnTHXZ.UseVisualStyleBackColor = true;
@@ -1477,16 +1427,16 @@ namespace guigubahuang
             // 
             this.cboXTQY.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboXTQY.FormattingEnabled = true;
-            this.cboXTQY.Location = new System.Drawing.Point(159, 29);
+            this.cboXTQY.Location = new System.Drawing.Point(119, 29);
             this.cboXTQY.Name = "cboXTQY";
-            this.cboXTQY.Size = new System.Drawing.Size(145, 28);
+            this.cboXTQY.Size = new System.Drawing.Size(75, 25);
             this.cboXTQY.TabIndex = 2;
             // 
             // btnYCXZ
             // 
-            this.btnYCXZ.Location = new System.Drawing.Point(159, 133);
+            this.btnYCXZ.Location = new System.Drawing.Point(119, 133);
             this.btnYCXZ.Name = "btnYCXZ";
-            this.btnYCXZ.Size = new System.Drawing.Size(145, 29);
+            this.btnYCXZ.Size = new System.Drawing.Size(75, 29);
             this.btnYCXZ.TabIndex = 1;
             this.btnYCXZ.Text = "删除";
             this.btnYCXZ.UseVisualStyleBackColor = true;
@@ -1495,10 +1445,10 @@ namespace guigubahuang
             // lBoxXTQY
             // 
             this.lBoxXTQY.FormattingEnabled = true;
-            this.lBoxXTQY.ItemHeight = 20;
+            this.lBoxXTQY.ItemHeight = 17;
             this.lBoxXTQY.Location = new System.Drawing.Point(6, 25);
             this.lBoxXTQY.Name = "lBoxXTQY";
-            this.lBoxXTQY.Size = new System.Drawing.Size(147, 144);
+            this.lBoxXTQY.Size = new System.Drawing.Size(103, 140);
             this.lBoxXTQY.TabIndex = 0;
             // 
             // groupBox7
@@ -1517,17 +1467,18 @@ namespace guigubahuang
             this.groupBox7.Controls.Add(this.label6);
             this.groupBox7.Location = new System.Drawing.Point(6, 3);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(302, 181);
+            this.groupBox7.Size = new System.Drawing.Size(220, 130);
             this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "人物属性";
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Enabled = false;
-            this.checkBox4.Location = new System.Drawing.Point(234, 21);
+            this.checkBox4.Location = new System.Drawing.Point(160, 22);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(56, 24);
+            this.checkBox4.Size = new System.Drawing.Size(54, 23);
             this.checkBox4.TabIndex = 107;
             this.checkBox4.Text = "天骄";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -1536,63 +1487,63 @@ namespace guigubahuang
             // 
             this.cboAH3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAH3.FormattingEnabled = true;
-            this.cboAH3.Location = new System.Drawing.Point(202, 142);
+            this.cboAH3.Location = new System.Drawing.Point(161, 88);
             this.cboAH3.Name = "cboAH3";
-            this.cboAH3.Size = new System.Drawing.Size(88, 28);
+            this.cboAH3.Size = new System.Drawing.Size(48, 25);
             this.cboAH3.TabIndex = 10;
             // 
             // cboAH2
             // 
             this.cboAH2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAH2.FormattingEnabled = true;
-            this.cboAH2.Location = new System.Drawing.Point(108, 142);
+            this.cboAH2.Location = new System.Drawing.Point(107, 88);
             this.cboAH2.Name = "cboAH2";
-            this.cboAH2.Size = new System.Drawing.Size(88, 28);
+            this.cboAH2.Size = new System.Drawing.Size(48, 25);
             this.cboAH2.TabIndex = 9;
             // 
             // cboAH1
             // 
             this.cboAH1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAH1.FormattingEnabled = true;
-            this.cboAH1.Location = new System.Drawing.Point(14, 142);
+            this.cboAH1.Location = new System.Drawing.Point(53, 88);
             this.cboAH1.Name = "cboAH1";
-            this.cboAH1.Size = new System.Drawing.Size(88, 28);
+            this.cboAH1.Size = new System.Drawing.Size(48, 25);
             this.cboAH1.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 119);
+            this.label4.Location = new System.Drawing.Point(10, 91);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 20);
+            this.label4.Size = new System.Drawing.Size(48, 19);
             this.label4.TabIndex = 7;
-            this.label4.Text = "爱好";
+            this.label4.Text = "爱好：";
             // 
             // cboXG3
             // 
             this.cboXG3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboXG3.FormattingEnabled = true;
-            this.cboXG3.Location = new System.Drawing.Point(202, 79);
+            this.cboXG3.Location = new System.Drawing.Point(160, 53);
             this.cboXG3.Name = "cboXG3";
-            this.cboXG3.Size = new System.Drawing.Size(88, 28);
+            this.cboXG3.Size = new System.Drawing.Size(48, 25);
             this.cboXG3.TabIndex = 6;
             // 
             // cboXG2
             // 
             this.cboXG2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboXG2.FormattingEnabled = true;
-            this.cboXG2.Location = new System.Drawing.Point(108, 79);
+            this.cboXG2.Location = new System.Drawing.Point(106, 53);
             this.cboXG2.Name = "cboXG2";
-            this.cboXG2.Size = new System.Drawing.Size(88, 28);
+            this.cboXG2.Size = new System.Drawing.Size(48, 25);
             this.cboXG2.TabIndex = 5;
             // 
             // cboXG1
             // 
             this.cboXG1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboXG1.FormattingEnabled = true;
-            this.cboXG1.Location = new System.Drawing.Point(14, 79);
+            this.cboXG1.Location = new System.Drawing.Point(52, 53);
             this.cboXG1.Name = "cboXG1";
-            this.cboXG1.Size = new System.Drawing.Size(88, 28);
+            this.cboXG1.Size = new System.Drawing.Size(48, 25);
             this.cboXG1.TabIndex = 4;
             // 
             // label3
@@ -1600,22 +1551,22 @@ namespace guigubahuang
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(9, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 20);
+            this.label3.Size = new System.Drawing.Size(48, 19);
             this.label3.TabIndex = 3;
-            this.label3.Text = "性格";
+            this.label3.Text = "性格：";
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(139, 19);
+            this.txtLastName.Location = new System.Drawing.Point(106, 20);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(81, 26);
+            this.txtLastName.Size = new System.Drawing.Size(48, 24);
             this.txtLastName.TabIndex = 2;
             // 
             // txtFirstName
             // 
             this.txtFirstName.Location = new System.Drawing.Point(52, 19);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(81, 26);
+            this.txtFirstName.Size = new System.Drawing.Size(48, 24);
             this.txtFirstName.TabIndex = 1;
             // 
             // label6
@@ -1623,7 +1574,7 @@ namespace guigubahuang
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(6, 22);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 20);
+            this.label6.Size = new System.Drawing.Size(38, 19);
             this.label6.TabIndex = 0;
             this.label6.Text = "姓名:";
             // 
@@ -1651,10 +1602,10 @@ namespace guigubahuang
             // 
             this.tabPage5.Controls.Add(this.treeView1);
             this.tabPage5.Controls.Add(this.gBoxGuanXi);
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Location = new System.Drawing.Point(4, 26);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(920, 596);
+            this.tabPage5.Size = new System.Drawing.Size(920, 599);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "关系";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1727,26 +1678,26 @@ namespace guigubahuang
             this.changeMenu,
             this.delMenu});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(107, 76);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 70);
             // 
             // addMenu
             // 
             this.addMenu.Name = "addMenu";
-            this.addMenu.Size = new System.Drawing.Size(106, 24);
+            this.addMenu.Size = new System.Drawing.Size(100, 22);
             this.addMenu.Text = "添加";
             this.addMenu.Click += new System.EventHandler(this.addMenu_Click);
             // 
             // changeMenu
             // 
             this.changeMenu.Name = "changeMenu";
-            this.changeMenu.Size = new System.Drawing.Size(106, 24);
+            this.changeMenu.Size = new System.Drawing.Size(100, 22);
             this.changeMenu.Text = "修改";
             this.changeMenu.Click += new System.EventHandler(this.changeMenu_Click);
             // 
             // delMenu
             // 
             this.delMenu.Name = "delMenu";
-            this.delMenu.Size = new System.Drawing.Size(106, 24);
+            this.delMenu.Size = new System.Drawing.Size(100, 22);
             this.delMenu.Text = "删除";
             this.delMenu.Click += new System.EventHandler(this.delMenu_Click);
             // 
@@ -1776,7 +1727,7 @@ namespace guigubahuang
             this.label72.AutoSize = true;
             this.label72.Location = new System.Drawing.Point(12, 38);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(54, 20);
+            this.label72.Size = new System.Drawing.Size(51, 19);
             this.label72.TabIndex = 6;
             this.label72.Text = "好感度:";
             // 
@@ -1784,7 +1735,7 @@ namespace guigubahuang
             // 
             this.txtHaoGan.Location = new System.Drawing.Point(72, 35);
             this.txtHaoGan.Name = "txtHaoGan";
-            this.txtHaoGan.Size = new System.Drawing.Size(157, 26);
+            this.txtHaoGan.Size = new System.Drawing.Size(157, 24);
             this.txtHaoGan.TabIndex = 3;
             // 
             // tabPage6
@@ -1803,9 +1754,9 @@ namespace guigubahuang
             this.tabPage6.Controls.Add(this.cboLeft);
             this.tabPage6.Controls.Add(this.cboXinFa);
             this.tabPage6.Controls.Add(this.cboJingJie);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Location = new System.Drawing.Point(4, 26);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(920, 596);
+            this.tabPage6.Size = new System.Drawing.Size(973, 599);
             this.tabPage6.TabIndex = 2;
             this.tabPage6.Text = "功法";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1816,7 +1767,7 @@ namespace guigubahuang
             this.label71.ForeColor = System.Drawing.Color.Red;
             this.label71.Location = new System.Drawing.Point(150, 40);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(499, 20);
+            this.label71.Size = new System.Drawing.Size(464, 19);
             this.label71.TabIndex = 14;
             this.label71.Text = "没空写详细了，直接简单粗暴！不满意可以打开软件根目录对应文本自己修改。";
             // 
@@ -1835,7 +1786,7 @@ namespace guigubahuang
             this.label70.AutoSize = true;
             this.label70.Location = new System.Drawing.Point(181, 291);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(35, 20);
+            this.label70.Size = new System.Drawing.Size(33, 19);
             this.label70.TabIndex = 12;
             this.label70.Text = "R键:";
             // 
@@ -1844,7 +1795,7 @@ namespace guigubahuang
             this.label61.AutoSize = true;
             this.label61.Location = new System.Drawing.Point(176, 257);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(40, 20);
+            this.label61.Size = new System.Drawing.Size(38, 19);
             this.label61.TabIndex = 11;
             this.label61.Text = "空格:";
             // 
@@ -1853,7 +1804,7 @@ namespace guigubahuang
             this.label60.AutoSize = true;
             this.label60.Location = new System.Drawing.Point(176, 223);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(40, 20);
+            this.label60.Size = new System.Drawing.Size(38, 19);
             this.label60.TabIndex = 10;
             this.label60.Text = "右键:";
             // 
@@ -1862,7 +1813,7 @@ namespace guigubahuang
             this.label59.AutoSize = true;
             this.label59.Location = new System.Drawing.Point(176, 189);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(40, 20);
+            this.label59.Size = new System.Drawing.Size(38, 19);
             this.label59.TabIndex = 9;
             this.label59.Text = "左键:";
             // 
@@ -1871,7 +1822,7 @@ namespace guigubahuang
             this.label58.AutoSize = true;
             this.label58.Location = new System.Drawing.Point(176, 155);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(40, 20);
+            this.label58.Size = new System.Drawing.Size(38, 19);
             this.label58.TabIndex = 8;
             this.label58.Text = "心法:";
             // 
@@ -1880,7 +1831,7 @@ namespace guigubahuang
             this.label57.AutoSize = true;
             this.label57.Location = new System.Drawing.Point(176, 121);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(40, 20);
+            this.label57.Size = new System.Drawing.Size(38, 19);
             this.label57.TabIndex = 7;
             this.label57.Text = "境界:";
             // 
@@ -1890,7 +1841,7 @@ namespace guigubahuang
             this.cboR.FormattingEnabled = true;
             this.cboR.Location = new System.Drawing.Point(222, 288);
             this.cboR.Name = "cboR";
-            this.cboR.Size = new System.Drawing.Size(121, 28);
+            this.cboR.Size = new System.Drawing.Size(121, 25);
             this.cboR.TabIndex = 6;
             this.cboR.SelectedIndexChanged += new System.EventHandler(this.cboR_SelectedIndexChanged);
             // 
@@ -1900,7 +1851,7 @@ namespace guigubahuang
             this.cboSpace.FormattingEnabled = true;
             this.cboSpace.Location = new System.Drawing.Point(222, 254);
             this.cboSpace.Name = "cboSpace";
-            this.cboSpace.Size = new System.Drawing.Size(121, 28);
+            this.cboSpace.Size = new System.Drawing.Size(121, 25);
             this.cboSpace.TabIndex = 5;
             this.cboSpace.SelectedIndexChanged += new System.EventHandler(this.cboSpace_SelectedIndexChanged);
             // 
@@ -1910,7 +1861,7 @@ namespace guigubahuang
             this.cboRight.FormattingEnabled = true;
             this.cboRight.Location = new System.Drawing.Point(222, 220);
             this.cboRight.Name = "cboRight";
-            this.cboRight.Size = new System.Drawing.Size(121, 28);
+            this.cboRight.Size = new System.Drawing.Size(121, 25);
             this.cboRight.TabIndex = 4;
             this.cboRight.SelectedIndexChanged += new System.EventHandler(this.cboRight_SelectedIndexChanged);
             // 
@@ -1920,7 +1871,7 @@ namespace guigubahuang
             this.cboLeft.FormattingEnabled = true;
             this.cboLeft.Location = new System.Drawing.Point(222, 186);
             this.cboLeft.Name = "cboLeft";
-            this.cboLeft.Size = new System.Drawing.Size(121, 28);
+            this.cboLeft.Size = new System.Drawing.Size(121, 25);
             this.cboLeft.TabIndex = 3;
             this.cboLeft.SelectedIndexChanged += new System.EventHandler(this.cboLeft_SelectedIndexChanged);
             // 
@@ -1943,7 +1894,7 @@ namespace guigubahuang
             "木"});
             this.cboXinFa.Location = new System.Drawing.Point(222, 152);
             this.cboXinFa.Name = "cboXinFa";
-            this.cboXinFa.Size = new System.Drawing.Size(121, 28);
+            this.cboXinFa.Size = new System.Drawing.Size(121, 25);
             this.cboXinFa.TabIndex = 2;
             // 
             // cboJingJie
@@ -1963,15 +1914,15 @@ namespace guigubahuang
             "登仙"});
             this.cboJingJie.Location = new System.Drawing.Point(222, 118);
             this.cboJingJie.Name = "cboJingJie";
-            this.cboJingJie.Size = new System.Drawing.Size(121, 28);
+            this.cboJingJie.Size = new System.Drawing.Size(121, 25);
             this.cboJingJie.TabIndex = 1;
             // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.label73);
-            this.tabPage7.Location = new System.Drawing.Point(4, 29);
+            this.tabPage7.Location = new System.Drawing.Point(4, 26);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(920, 596);
+            this.tabPage7.Size = new System.Drawing.Size(920, 599);
             this.tabPage7.TabIndex = 3;
             this.tabPage7.Text = "形象";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1983,13 +1934,14 @@ namespace guigubahuang
             this.label73.ForeColor = System.Drawing.Color.Red;
             this.label73.Location = new System.Drawing.Point(201, 126);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(359, 20);
+            this.label73.Size = new System.Drawing.Size(334, 19);
             this.label73.TabIndex = 0;
             this.label73.Text = "点我下载另一个修改器修改，我要玩游戏没空写详细了。";
             this.label73.Click += new System.EventHandler(this.label73_Click);
             // 
             // gBoxUnit
             // 
+            this.gBoxUnit.Controls.Add(this.label74);
             this.gBoxUnit.Controls.Add(this.txtSearchUnit);
             this.gBoxUnit.Controls.Add(this.lBoxUnit);
             this.gBoxUnit.Location = new System.Drawing.Point(5, 6);
@@ -2000,19 +1952,19 @@ namespace guigubahuang
             // 
             // txtSearchUnit
             // 
-            this.txtSearchUnit.Location = new System.Drawing.Point(5, 577);
+            this.txtSearchUnit.Location = new System.Drawing.Point(59, 581);
             this.txtSearchUnit.Name = "txtSearchUnit";
-            this.txtSearchUnit.Size = new System.Drawing.Size(168, 26);
+            this.txtSearchUnit.Size = new System.Drawing.Size(113, 24);
             this.txtSearchUnit.TabIndex = 1;
             this.txtSearchUnit.TextChanged += new System.EventHandler(this.txtSearchUnit_TextChanged);
             // 
             // lBoxUnit
             // 
             this.lBoxUnit.FormattingEnabled = true;
-            this.lBoxUnit.ItemHeight = 20;
+            this.lBoxUnit.ItemHeight = 17;
             this.lBoxUnit.Location = new System.Drawing.Point(5, 27);
             this.lBoxUnit.Name = "lBoxUnit";
-            this.lBoxUnit.Size = new System.Drawing.Size(168, 544);
+            this.lBoxUnit.Size = new System.Drawing.Size(168, 548);
             this.lBoxUnit.TabIndex = 0;
             this.lBoxUnit.SelectedIndexChanged += new System.EventHandler(this.lBoxUnit_SelectedIndexChanged);
             // 
@@ -2022,10 +1974,10 @@ namespace guigubahuang
             this.tabPage2.Controls.Add(this.groupBox9);
             this.tabPage2.Controls.Add(this.groupBox8);
             this.tabPage2.Controls.Add(this.groupBox2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1116, 635);
+            this.tabPage2.Size = new System.Drawing.Size(1173, 638);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "宗门";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2047,7 +1999,7 @@ namespace guigubahuang
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(118, 34);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 24);
+            this.checkBox1.Size = new System.Drawing.Size(54, 23);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "全选";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -2066,11 +2018,11 @@ namespace guigubahuang
             // lBoxSchoolDie
             // 
             this.lBoxSchoolDie.FormattingEnabled = true;
-            this.lBoxSchoolDie.ItemHeight = 20;
+            this.lBoxSchoolDie.ItemHeight = 17;
             this.lBoxSchoolDie.Location = new System.Drawing.Point(6, 68);
             this.lBoxSchoolDie.Name = "lBoxSchoolDie";
             this.lBoxSchoolDie.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lBoxSchoolDie.Size = new System.Drawing.Size(168, 444);
+            this.lBoxSchoolDie.Size = new System.Drawing.Size(168, 429);
             this.lBoxSchoolDie.TabIndex = 0;
             // 
             // groupBox9
@@ -2096,7 +2048,7 @@ namespace guigubahuang
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(632, 35);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(56, 24);
+            this.checkBox3.Size = new System.Drawing.Size(54, 23);
             this.checkBox3.TabIndex = 16;
             this.checkBox3.Text = "散修";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -2108,7 +2060,7 @@ namespace guigubahuang
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(231, 262);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 20);
+            this.label2.Size = new System.Drawing.Size(0, 19);
             this.label2.TabIndex = 15;
             // 
             // checkBox2
@@ -2116,7 +2068,7 @@ namespace guigubahuang
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(570, 35);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(56, 24);
+            this.checkBox2.Size = new System.Drawing.Size(54, 23);
             this.checkBox2.TabIndex = 14;
             this.checkBox2.Text = "天骄";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -2127,7 +2079,7 @@ namespace guigubahuang
             this.label56.AutoSize = true;
             this.label56.Location = new System.Drawing.Point(422, 36);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(40, 20);
+            this.label56.Size = new System.Drawing.Size(38, 19);
             this.label56.TabIndex = 13;
             this.label56.Text = "境界:";
             // 
@@ -2137,17 +2089,17 @@ namespace guigubahuang
             this.cboZMNPCLevel.FormattingEnabled = true;
             this.cboZMNPCLevel.Location = new System.Drawing.Point(468, 33);
             this.cboZMNPCLevel.Name = "cboZMNPCLevel";
-            this.cboZMNPCLevel.Size = new System.Drawing.Size(90, 28);
+            this.cboZMNPCLevel.Size = new System.Drawing.Size(90, 25);
             this.cboZMNPCLevel.TabIndex = 12;
             this.cboZMNPCLevel.SelectedIndexChanged += new System.EventHandler(this.cboZMNPCLevel_SelectedIndexChanged);
             // 
             // lBoxAllUnit
             // 
             this.lBoxAllUnit.FormattingEnabled = true;
-            this.lBoxAllUnit.ItemHeight = 20;
+            this.lBoxAllUnit.ItemHeight = 17;
             this.lBoxAllUnit.Location = new System.Drawing.Point(408, 67);
             this.lBoxAllUnit.Name = "lBoxAllUnit";
-            this.lBoxAllUnit.Size = new System.Drawing.Size(292, 444);
+            this.lBoxAllUnit.Size = new System.Drawing.Size(292, 429);
             this.lBoxAllUnit.TabIndex = 11;
             // 
             // groupBox11
@@ -2178,7 +2130,7 @@ namespace guigubahuang
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(6, 25);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(95, 28);
+            this.comboBox1.Size = new System.Drawing.Size(95, 25);
             this.comboBox1.TabIndex = 8;
             // 
             // btnChanged
@@ -2207,17 +2159,17 @@ namespace guigubahuang
             this.cboSchoolLevel.FormattingEnabled = true;
             this.cboSchoolLevel.Location = new System.Drawing.Point(6, 33);
             this.cboSchoolLevel.Name = "cboSchoolLevel";
-            this.cboSchoolLevel.Size = new System.Drawing.Size(220, 28);
+            this.cboSchoolLevel.Size = new System.Drawing.Size(220, 25);
             this.cboSchoolLevel.TabIndex = 1;
             this.cboSchoolLevel.SelectedIndexChanged += new System.EventHandler(this.cboSchoolLevel_SelectedIndexChanged);
             // 
             // lBoxSchoolUnit
             // 
             this.lBoxSchoolUnit.FormattingEnabled = true;
-            this.lBoxSchoolUnit.ItemHeight = 20;
+            this.lBoxSchoolUnit.ItemHeight = 17;
             this.lBoxSchoolUnit.Location = new System.Drawing.Point(6, 68);
             this.lBoxSchoolUnit.Name = "lBoxSchoolUnit";
-            this.lBoxSchoolUnit.Size = new System.Drawing.Size(283, 444);
+            this.lBoxSchoolUnit.Size = new System.Drawing.Size(283, 429);
             this.lBoxSchoolUnit.TabIndex = 0;
             // 
             // groupBox8
@@ -2260,7 +2212,7 @@ namespace guigubahuang
             // 
             this.txtKuangCai.Location = new System.Drawing.Point(548, 64);
             this.txtKuangCai.Name = "txtKuangCai";
-            this.txtKuangCai.Size = new System.Drawing.Size(100, 26);
+            this.txtKuangCai.Size = new System.Drawing.Size(100, 24);
             this.txtKuangCai.TabIndex = 15;
             // 
             // label69
@@ -2268,7 +2220,7 @@ namespace guigubahuang
             this.label69.AutoSize = true;
             this.label69.Location = new System.Drawing.Point(504, 67);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(40, 20);
+            this.label69.Size = new System.Drawing.Size(38, 19);
             this.label69.TabIndex = 14;
             this.label69.Text = "矿材:";
             // 
@@ -2276,7 +2228,7 @@ namespace guigubahuang
             // 
             this.txtYaoCai.Location = new System.Drawing.Point(398, 64);
             this.txtYaoCai.Name = "txtYaoCai";
-            this.txtYaoCai.Size = new System.Drawing.Size(100, 26);
+            this.txtYaoCai.Size = new System.Drawing.Size(100, 24);
             this.txtYaoCai.TabIndex = 13;
             // 
             // label68
@@ -2284,7 +2236,7 @@ namespace guigubahuang
             this.label68.AutoSize = true;
             this.label68.Location = new System.Drawing.Point(352, 67);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(40, 20);
+            this.label68.Size = new System.Drawing.Size(38, 19);
             this.label68.TabIndex = 12;
             this.label68.Text = "药材:";
             // 
@@ -2292,7 +2244,7 @@ namespace guigubahuang
             // 
             this.txtJiMingDiZi.Location = new System.Drawing.Point(232, 64);
             this.txtJiMingDiZi.Name = "txtJiMingDiZi";
-            this.txtJiMingDiZi.Size = new System.Drawing.Size(100, 26);
+            this.txtJiMingDiZi.Size = new System.Drawing.Size(100, 24);
             this.txtJiMingDiZi.TabIndex = 11;
             // 
             // label67
@@ -2300,7 +2252,7 @@ namespace guigubahuang
             this.label67.AutoSize = true;
             this.label67.Location = new System.Drawing.Point(158, 67);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(68, 20);
+            this.label67.Size = new System.Drawing.Size(64, 19);
             this.label67.TabIndex = 10;
             this.label67.Text = "记名弟子:";
             // 
@@ -2308,7 +2260,7 @@ namespace guigubahuang
             // 
             this.txtAnDing.Location = new System.Drawing.Point(52, 64);
             this.txtAnDing.Name = "txtAnDing";
-            this.txtAnDing.Size = new System.Drawing.Size(100, 26);
+            this.txtAnDing.Size = new System.Drawing.Size(100, 24);
             this.txtAnDing.TabIndex = 9;
             // 
             // label66
@@ -2316,7 +2268,7 @@ namespace guigubahuang
             this.label66.AutoSize = true;
             this.label66.Location = new System.Drawing.Point(6, 67);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(40, 20);
+            this.label66.Size = new System.Drawing.Size(38, 19);
             this.label66.TabIndex = 8;
             this.label66.Text = "安定:";
             // 
@@ -2324,7 +2276,7 @@ namespace guigubahuang
             // 
             this.txtZhongCheng.Location = new System.Drawing.Point(548, 28);
             this.txtZhongCheng.Name = "txtZhongCheng";
-            this.txtZhongCheng.Size = new System.Drawing.Size(100, 26);
+            this.txtZhongCheng.Size = new System.Drawing.Size(100, 24);
             this.txtZhongCheng.TabIndex = 7;
             // 
             // label65
@@ -2332,7 +2284,7 @@ namespace guigubahuang
             this.label65.AutoSize = true;
             this.label65.Location = new System.Drawing.Point(504, 31);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(51, 20);
+            this.label65.Size = new System.Drawing.Size(48, 19);
             this.label65.TabIndex = 6;
             this.label65.Text = "忠诚：";
             // 
@@ -2340,7 +2292,7 @@ namespace guigubahuang
             // 
             this.txtFanRong.Location = new System.Drawing.Point(398, 28);
             this.txtFanRong.Name = "txtFanRong";
-            this.txtFanRong.Size = new System.Drawing.Size(100, 26);
+            this.txtFanRong.Size = new System.Drawing.Size(100, 24);
             this.txtFanRong.TabIndex = 5;
             // 
             // label64
@@ -2348,7 +2300,7 @@ namespace guigubahuang
             this.label64.AutoSize = true;
             this.label64.Location = new System.Drawing.Point(338, 31);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(54, 20);
+            this.label64.Size = new System.Drawing.Size(51, 19);
             this.label64.TabIndex = 4;
             this.label64.Text = "繁荣度:";
             // 
@@ -2356,7 +2308,7 @@ namespace guigubahuang
             // 
             this.txtRongYu.Location = new System.Drawing.Point(232, 28);
             this.txtRongYu.Name = "txtRongYu";
-            this.txtRongYu.Size = new System.Drawing.Size(100, 26);
+            this.txtRongYu.Size = new System.Drawing.Size(100, 24);
             this.txtRongYu.TabIndex = 3;
             // 
             // label63
@@ -2364,7 +2316,7 @@ namespace guigubahuang
             this.label63.AutoSize = true;
             this.label63.Location = new System.Drawing.Point(158, 31);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(68, 20);
+            this.label63.Size = new System.Drawing.Size(64, 19);
             this.label63.TabIndex = 2;
             this.label63.Text = "宗门荣誉:";
             // 
@@ -2372,7 +2324,7 @@ namespace guigubahuang
             // 
             this.txtLingShi.Location = new System.Drawing.Point(52, 28);
             this.txtLingShi.Name = "txtLingShi";
-            this.txtLingShi.Size = new System.Drawing.Size(100, 26);
+            this.txtLingShi.Size = new System.Drawing.Size(100, 24);
             this.txtLingShi.TabIndex = 1;
             // 
             // label62
@@ -2380,7 +2332,7 @@ namespace guigubahuang
             this.label62.AutoSize = true;
             this.label62.Location = new System.Drawing.Point(6, 31);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(40, 20);
+            this.label62.Size = new System.Drawing.Size(38, 19);
             this.label62.TabIndex = 0;
             this.label62.Text = "灵石:";
             // 
@@ -2397,10 +2349,10 @@ namespace guigubahuang
             // 
             this.lBoxSchool.FormattingEnabled = true;
             this.lBoxSchool.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.lBoxSchool.ItemHeight = 20;
+            this.lBoxSchool.ItemHeight = 17;
             this.lBoxSchool.Location = new System.Drawing.Point(6, 17);
             this.lBoxSchool.Name = "lBoxSchool";
-            this.lBoxSchool.Size = new System.Drawing.Size(188, 584);
+            this.lBoxSchool.Size = new System.Drawing.Size(188, 582);
             this.lBoxSchool.TabIndex = 0;
             this.lBoxSchool.SelectedIndexChanged += new System.EventHandler(this.lBoxSchool_SelectedIndexChanged);
             // 
@@ -2409,9 +2361,9 @@ namespace guigubahuang
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.groupBox12);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1116, 635);
+            this.tabPage3.Size = new System.Drawing.Size(1173, 638);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "恢复存档";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -2449,24 +2401,146 @@ namespace guigubahuang
             // lBoxBakDIr
             // 
             this.lBoxBakDIr.FormattingEnabled = true;
-            this.lBoxBakDIr.ItemHeight = 20;
+            this.lBoxBakDIr.ItemHeight = 17;
             this.lBoxBakDIr.Location = new System.Drawing.Point(9, 25);
             this.lBoxBakDIr.Name = "lBoxBakDIr";
-            this.lBoxBakDIr.Size = new System.Drawing.Size(294, 564);
+            this.lBoxBakDIr.Size = new System.Drawing.Size(294, 548);
             this.lBoxBakDIr.TabIndex = 0;
             // 
-            // Form1
+            // groupBox13
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.groupBox13.Controls.Add(this.label55);
+            this.groupBox13.Controls.Add(this.label53);
+            this.groupBox13.Controls.Add(this.txtLingshi2);
+            this.groupBox13.Controls.Add(this.txtML);
+            this.groupBox13.Controls.Add(this.txtSW);
+            this.groupBox13.Controls.Add(this.label17);
+            this.groupBox13.Controls.Add(this.label54);
+            this.groupBox13.Controls.Add(this.label18);
+            this.groupBox13.Controls.Add(this.txtDX);
+            this.groupBox13.Controls.Add(this.txtMD);
+            this.groupBox13.Controls.Add(this.label29);
+            this.groupBox13.Controls.Add(this.txtZD);
+            this.groupBox13.Location = new System.Drawing.Point(254, 6);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(218, 127);
+            this.groupBox13.TabIndex = 108;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "基本属性";
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.txtHX);
+            this.groupBox14.Controls.Add(this.label19);
+            this.groupBox14.Controls.Add(this.txtGJ);
+            this.groupBox14.Controls.Add(this.txtFY);
+            this.groupBox14.Controls.Add(this.txtJL);
+            this.groupBox14.Controls.Add(this.txtGFKX);
+            this.groupBox14.Controls.Add(this.txtLGKX);
+            this.groupBox14.Controls.Add(this.txtHuXin);
+            this.groupBox14.Controls.Add(this.txtYS);
+            this.groupBox14.Controls.Add(this.txtKJBS);
+            this.groupBox14.Controls.Add(this.txtKBBS);
+            this.groupBox14.Controls.Add(this.label20);
+            this.groupBox14.Controls.Add(this.label21);
+            this.groupBox14.Controls.Add(this.label22);
+            this.groupBox14.Controls.Add(this.label23);
+            this.groupBox14.Controls.Add(this.label24);
+            this.groupBox14.Controls.Add(this.label25);
+            this.groupBox14.Controls.Add(this.label26);
+            this.groupBox14.Controls.Add(this.label27);
+            this.groupBox14.Controls.Add(this.label28);
+            this.groupBox14.Location = new System.Drawing.Point(389, 190);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(237, 206);
+            this.groupBox14.TabIndex = 109;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "战斗属性";
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.label30);
+            this.groupBox15.Controls.Add(this.txtDF);
+            this.groupBox15.Controls.Add(this.txtQF);
+            this.groupBox15.Controls.Add(this.txtJF);
+            this.groupBox15.Controls.Add(this.txtQuanFa);
+            this.groupBox15.Controls.Add(this.txtZF);
+            this.groupBox15.Controls.Add(this.txtZhiFa);
+            this.groupBox15.Controls.Add(this.label31);
+            this.groupBox15.Controls.Add(this.label32);
+            this.groupBox15.Controls.Add(this.label33);
+            this.groupBox15.Controls.Add(this.label34);
+            this.groupBox15.Controls.Add(this.label35);
+            this.groupBox15.Location = new System.Drawing.Point(632, 190);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(103, 208);
+            this.groupBox15.TabIndex = 110;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "功法资质";
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.label5);
+            this.groupBox16.Controls.Add(this.label36);
+            this.groupBox16.Controls.Add(this.txtFLG);
+            this.groupBox16.Controls.Add(this.txtHLG);
+            this.groupBox16.Controls.Add(this.txtSLG);
+            this.groupBox16.Controls.Add(this.txtLLG);
+            this.groupBox16.Controls.Add(this.txtTLG);
+            this.groupBox16.Controls.Add(this.txtMLG);
+            this.groupBox16.Controls.Add(this.label37);
+            this.groupBox16.Controls.Add(this.label38);
+            this.groupBox16.Controls.Add(this.label39);
+            this.groupBox16.Controls.Add(this.label40);
+            this.groupBox16.Location = new System.Drawing.Point(741, 190);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(110, 208);
+            this.groupBox16.TabIndex = 111;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "灵根资质";
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.label41);
+            this.groupBox17.Controls.Add(this.txtLD);
+            this.groupBox17.Controls.Add(this.txtLQ);
+            this.groupBox17.Controls.Add(this.txtFS);
+            this.groupBox17.Controls.Add(this.txtHF);
+            this.groupBox17.Controls.Add(this.txtYC);
+            this.groupBox17.Controls.Add(this.label46);
+            this.groupBox17.Controls.Add(this.txtKC);
+            this.groupBox17.Controls.Add(this.label45);
+            this.groupBox17.Controls.Add(this.label42);
+            this.groupBox17.Controls.Add(this.label44);
+            this.groupBox17.Controls.Add(this.label43);
+            this.groupBox17.Location = new System.Drawing.Point(857, 190);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(110, 206);
+            this.groupBox17.TabIndex = 112;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "技艺资质";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(6, 584);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(48, 19);
+            this.label74.TabIndex = 2;
+            this.label74.Text = "搜索：";
+            // 
+            // Editor
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 756);
+            this.ClientSize = new System.Drawing.Size(1184, 761);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("微软雅黑", 9.163636F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Editor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "鬼谷八荒存档修改器";
             this.groupBox1.ResumeLayout(false);
@@ -2503,6 +2577,16 @@ namespace guigubahuang
             this.groupBox2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2727,6 +2811,12 @@ namespace guigubahuang
         private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.ListBox lBoxBakDIr;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Label label74;
     }
 }
 
